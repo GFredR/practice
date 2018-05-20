@@ -1,0 +1,8 @@
+/* 
+ InfoPlist.strings
+
+ */
+
+CFBundleDisplayName = "Running";
+
+NSSiriUsageDescription = "You can say 'Start my workout using Running' to Siri etc. and more.";

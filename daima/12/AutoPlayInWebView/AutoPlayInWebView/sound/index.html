@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AutoPlayInWebView</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    
+    <script type="text/javascript">
+        var baseAudio = new Audio();
+        
+        function playAudioFn(_arg){
+            document.getElementById("bgm").play();
+            
+//            baseAudio.src = _arg + ".mp3";
+//            baseAudio.play();
+        }
+        
+        function pauseAudioFn(){
+            document.getElementById("bgm").pause();
+            
+//            baseAudio.pause();
+        }
+        
+        function doFireEvent(_arg){
+            location.href = _arg;
+        }
+    </script>
+    
+</head>
+<body onload="doFireEvent('autoplaytest://sampleaudio')">
+    <p>
+        <a href="autoplaytest://sampleaudio">Click AutoPlayInWebView Test</a>
+    </p>
+    <p>
+        <a href="javascript:playAudioFn('sampleaudio')">ClickPlay Test</a>
+    </p>
+    <p>
+        <a href="javascript:pauseAudioFn()">ClickPause Test</a>
+    </p>
+    <p>
+        <audio id="bgm" src="sampleaudio.mp3" controls autoplay />
+    </p>
+    <p>
+        <a href="http://apple.com">Click WebSite:apple Test</a>
+    </p>
+</body>
+</html>

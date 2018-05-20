@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11163.2" systemVersion="16A239j" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11133"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11064"/>
+    </dependencies>
+    <scenes>
+        <!--Home Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="HomeInterfaceController">
+                    <items>
+                        <table alignment="left" id="3pY-Mv-BWg">
+                            <items>
+                                <tableRow identifier="OrdinaryEventRow" id="23r-BB-fB4" customClass="OrdinaryEventRow">
+                                    <group key="rootItem" width="1" alignment="left" layout="vertical" id="fUO-q3-bpC">
+                                        <items>
+                                            <label alignment="left" text="Title" id="0gh-nP-iws">
+                                                <fontDescription key="font" type="system" pointSize="12"/>
+                                            </label>
+                                            <label alignment="left" text="Subtitle" id="14k-le-31Z">
+                                                <fontDescription key="font" type="system" pointSize="10"/>
+                                            </label>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="timeLabel" destination="14k-le-31Z" id="vhX-BF-a0D"/>
+                                        <outlet property="titleLabel" destination="0gh-nP-iws" id="l5W-Kv-q9X"/>
+                                    </connections>
+                                </tableRow>
+                                <tableRow identifier="ImportantEventRow" id="ohW-yT-MIi" customClass="ImportantEventRow">
+                                    <group key="rootItem" width="1" alignment="left" spacing="10" id="xf5-UI-LWN">
+                                        <items>
+                                            <imageView width="0.40000000000000002" height="55" alignment="left" id="alQ-8p-Cog"/>
+                                            <group width="0.59999999999999998" height="60" alignment="left" layout="vertical" id="a42-3w-Tj5">
+                                                <items>
+                                                    <label alignment="left" text="Title" numberOfLines="2" id="Fgc-ZM-nsZ">
+                                                        <color key="textColor" red="1" green="0.0" blue="0.080225848228442587" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="font" type="system" pointSize="12"/>
+                                                    </label>
+                                                    <label alignment="left" text="Subtitle" numberOfLines="2" id="5oN-tc-W7n">
+                                                        <fontDescription key="font" type="system" pointSize="10"/>
+                                                    </label>
+                                                </items>
+                                            </group>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="eventImage" destination="alQ-8p-Cog" id="ZRG-Y4-mxv"/>
+                                        <outlet property="timeLabel" destination="5oN-tc-W7n" id="dWQ-oH-RTZ"/>
+                                        <outlet property="titleLabel" destination="Fgc-ZM-nsZ" id="c6n-hP-SyE"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="tableView" destination="3pY-Mv-BWg" id="awr-7a-DMa"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-100" y="198"/>
+        </scene>
+        <!--Glance Interface Controller-->
+        <scene sceneID="BOz-TT-tkC">
+            <objects>
+                <glanceController spacing="0.0" id="0uZ-2p-rRc" customClass="GlanceController">
+                    <items>
+                        <group alignment="left" id="t8f-Gd-c4y"/>
+                        <group alignment="left" id="uCw-4Q-Ouw"/>
+                    </items>
+                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="14"/>
+                </glanceController>
+            </objects>
+            <point key="canvasLocation" x="164" y="180"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="XkS-y5-khE"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="XkS-y5-khE" id="49B-RR-99y"/>
+                        <segue destination="gdX-wl-uQE" kind="relationship" relationship="dynamicNotificationInterface" id="fKh-qV-3T2"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="-100" y="511"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="KIl-fV-djm">
+            <objects>
+                <controller id="gdX-wl-uQE" customClass="NotificationController"/>
+            </objects>
+            <point key="canvasLocation" x="215" y="495"/>
+        </scene>
+    </scenes>
+</document>

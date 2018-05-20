@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7D271B67-CCF1-47F6-9050-5B7418133403</string>
+	<key>IDESourceControlProjectName</key>
+	<string>R0PageView-OC</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B565EDAC3D6B333FF1022DFF0C0C2C3C2C9E9E8E</key>
+		<string>github.com:ir0ach/R0PageView-OC.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>R0PageView-OC.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B565EDAC3D6B333FF1022DFF0C0C2C3C2C9E9E8E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:ir0ach/R0PageView-OC.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B565EDAC3D6B333FF1022DFF0C0C2C3C2C9E9E8E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B565EDAC3D6B333FF1022DFF0C0C2C3C2C9E9E8E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>R0PageView-OC</string>
+		</dict>
+	</array>
+</dict>
+</plist>

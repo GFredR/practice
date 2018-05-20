@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>91B0179F-8083-40B0-BA97-F442AF8D1D9D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UISearchControllerStoryBoard</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CD93D042504A387CAFCED890F661BC30342927E5</key>
+		<string>https://github.com/agibson73/UISearchBar-and-TableViewController-IOS-8-Swift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>UISearchControllerStoryBoard.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CD93D042504A387CAFCED890F661BC30342927E5</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/agibson73/UISearchBar-and-TableViewController-IOS-8-Swift.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CD93D042504A387CAFCED890F661BC30342927E5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CD93D042504A387CAFCED890F661BC30342927E5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>UISearchControllerStoryBoard%20</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11163.2" systemVersion="16A239j" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11133"/>
+        <capability name="Segues with Peek and Pop" minToolsVersion="7.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ModalEditor" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lby-bI-oNo">
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JlI-bC-7Sq">
+                                        <frame key="frameInset" minY="-5.5" width="375" height="203.5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="邮箱地址：" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vT2-Et-XBw">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="cZd-LH-Pp0"/>
+                                            <constraint firstAttribute="width" constant="159" id="oxs-cN-241"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qb9-ks-nfg">
+                                        <state key="normal" title="编辑">
+                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="etR-mA-2Xc" kind="presentation" identifier="showEditor" modalPresentationStyle="overCurrentContext" id="d4x-Cv-nbN">
+                                                <segue key="commit" inheritsFrom="parent" id="kJf-g9-oEL"/>
+                                                <segue key="preview" inheritsFrom="commit" id="GF9-dH-Rn0"/>
+                                            </segue>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="jgxj@163.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GQi-Rp-dU8">
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="190" id="6pX-qL-hxx"/>
+                                    <constraint firstItem="GQi-Rp-dU8" firstAttribute="centerX" secondItem="vT2-Et-XBw" secondAttribute="centerX" id="8RO-Nr-Kal"/>
+                                    <constraint firstItem="GQi-Rp-dU8" firstAttribute="top" secondItem="vT2-Et-XBw" secondAttribute="bottom" constant="21" id="8kr-N2-Jpd"/>
+                                    <constraint firstItem="Qb9-ks-nfg" firstAttribute="top" secondItem="GQi-Rp-dU8" secondAttribute="bottom" constant="30" id="9A4-LD-toL"/>
+                                    <constraint firstItem="Qb9-ks-nfg" firstAttribute="centerX" secondItem="GQi-Rp-dU8" secondAttribute="centerX" id="D1o-mL-sn8"/>
+                                    <constraint firstItem="vT2-Et-XBw" firstAttribute="top" secondItem="lby-bI-oNo" secondAttribute="top" constant="42" id="MoY-TN-7HU"/>
+                                    <constraint firstItem="Qb9-ks-nfg" firstAttribute="centerX" secondItem="lby-bI-oNo" secondAttribute="centerX" id="efd-0r-b6w"/>
+                                    <constraint firstItem="GQi-Rp-dU8" firstAttribute="centerY" secondItem="lby-bI-oNo" secondAttribute="centerY" id="j4B-HD-KqZ"/>
+                                    <constraint firstItem="GQi-Rp-dU8" firstAttribute="leading" secondItem="lby-bI-oNo" secondAttribute="leading" constant="42" id="qKo-kG-dSB"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="lby-bI-oNo" secondAttribute="trailing" id="4CT-nz-JxC"/>
+                            <constraint firstItem="lby-bI-oNo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="QxZ-Q5-PAw"/>
+                            <constraint firstItem="lby-bI-oNo" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ucC-e9-8Qn"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="emailLabel" destination="GQi-Rp-dU8" id="dqb-Cr-kQZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <exit id="4tA-jZ-EJj" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="34" y="188"/>
+        </scene>
+        <!--Editor View Controller-->
+        <scene sceneID="BjB-bb-2Oq">
+            <objects>
+                <viewController id="etR-mA-2Xc" customClass="EditorViewController" customModule="ModalEditor" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EF1-W4-wQZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="UDc-Z5-T4n"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kg9-BU-ZgP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e7N-j9-O9r">
+                                <frame key="frameInset" minY="246" width="375" height="175"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="邮箱地址:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XlF-EN-RMw">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="159" id="iMt-qR-h4J"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" clearButtonMode="unlessEditing" translatesAutoresizingMaskIntoConstraints="NO" id="g0d-gS-9KT">
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="done"/>
+                                        <connections>
+                                            <action selector="hideKeyboard:" destination="etR-mA-2Xc" eventType="editingDidEndOnExit" id="vlc-dj-Med"/>
+                                        </connections>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MpF-9G-G9L">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="77" id="v4f-Vz-pRy"/>
+                                        </constraints>
+                                        <state key="normal" title="保存">
+                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="updateEditor:" destination="etR-mA-2Xc" eventType="touchUpInside" id="QpG-qp-P64"/>
+                                            <segue destination="4tA-jZ-EJj" kind="unwind" unwindAction="exitToHere:" id="mKe-jY-zou"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="g0d-gS-9KT" firstAttribute="centerY" secondItem="e7N-j9-O9r" secondAttribute="centerY" id="1TF-w4-T9L"/>
+                                    <constraint firstItem="MpF-9G-G9L" firstAttribute="top" secondItem="g0d-gS-9KT" secondAttribute="bottom" constant="21" id="ISE-8R-sqB"/>
+                                    <constraint firstItem="g0d-gS-9KT" firstAttribute="centerX" secondItem="e7N-j9-O9r" secondAttribute="centerX" id="KhU-fj-R8a"/>
+                                    <constraint firstItem="g0d-gS-9KT" firstAttribute="top" secondItem="XlF-EN-RMw" secondAttribute="bottom" constant="15" id="Lek-7J-0Xh"/>
+                                    <constraint firstItem="g0d-gS-9KT" firstAttribute="leading" secondItem="e7N-j9-O9r" secondAttribute="leading" constant="41" id="RQB-rX-tW0"/>
+                                    <constraint firstAttribute="bottom" secondItem="MpF-9G-G9L" secondAttribute="bottom" constant="21" id="VrF-Gm-jMx"/>
+                                    <constraint firstItem="g0d-gS-9KT" firstAttribute="centerX" secondItem="MpF-9G-G9L" secondAttribute="centerX" id="XxQ-5w-YOi"/>
+                                    <constraint firstItem="g0d-gS-9KT" firstAttribute="centerX" secondItem="XlF-EN-RMw" secondAttribute="centerX" id="xOF-WF-CL7"/>
+                                    <constraint firstItem="XlF-EN-RMw" firstAttribute="top" secondItem="e7N-j9-O9r" secondAttribute="top" constant="37" id="yhz-pc-alY"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.84796335512400389" green="0.91235510628939465" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="e7N-j9-O9r" firstAttribute="centerY" secondItem="kg9-BU-ZgP" secondAttribute="centerY" id="4Ph-n8-lLt"/>
+                            <constraint firstItem="e7N-j9-O9r" firstAttribute="leading" secondItem="kg9-BU-ZgP" secondAttribute="leading" id="On3-QD-Eam"/>
+                            <constraint firstAttribute="trailing" secondItem="e7N-j9-O9r" secondAttribute="trailing" id="qex-r6-Gc5"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="emailField" destination="g0d-gS-9KT" id="xBx-bA-Zre"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KbJ-Q0-3Ns" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="810" y="169"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="d4x-Cv-nbN"/>
+    </inferredMetricsTieBreakers>
+</document>

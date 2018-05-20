@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49915CF6171CE6F500025C70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49915CF5171CE6F500025C70 /* UIKit.framework */; };
+		49915CF8171CE6F500025C70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49915CF7171CE6F500025C70 /* Foundation.framework */; };
+		49915CFA171CE6F500025C70 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49915CF9171CE6F500025C70 /* CoreGraphics.framework */; };
+		49915D00171CE6F500025C70 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49915CFE171CE6F500025C70 /* InfoPlist.strings */; };
+		49915D02171CE6F500025C70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49915D01171CE6F500025C70 /* main.m */; };
+		49915D06171CE6F500025C70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49915D05171CE6F500025C70 /* AppDelegate.m */; };
+		49915D08171CE6F500025C70 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 49915D07171CE6F500025C70 /* Default.png */; };
+		49915D0A171CE6F500025C70 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49915D09171CE6F500025C70 /* Default@2x.png */; };
+		49915D0C171CE6F500025C70 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49915D0B171CE6F500025C70 /* Default-568h@2x.png */; };
+		49915D0F171CE6F500025C70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49915D0E171CE6F500025C70 /* ViewController.m */; };
+		49915D12171CE6F500025C70 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49915D10171CE6F500025C70 /* ViewController_iPhone.xib */; };
+		49915D15171CE6F500025C70 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49915D13171CE6F500025C70 /* ViewController_iPad.xib */; };
+		49915D1E171CE84100025C70 /* LandscapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49915D1C171CE84100025C70 /* LandscapeViewController.m */; };
+		49915D1F171CE84100025C70 /* LandscapeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49915D1D171CE84100025C70 /* LandscapeViewController.xib */; };
+		49915D25171CEB9000025C70 /* UINavigationController+Autorotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49915D24171CEB9000025C70 /* UINavigationController+Autorotate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49915CF2171CE6F500025C70 /* TestLandscape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestLandscape.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49915CF5171CE6F500025C70 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		49915CF7171CE6F500025C70 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		49915CF9171CE6F500025C70 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		49915CFD171CE6F500025C70 /* TestLandscape-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestLandscape-Info.plist"; sourceTree = "<group>"; };
+		49915CFF171CE6F500025C70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		49915D01171CE6F500025C70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49915D03171CE6F500025C70 /* TestLandscape-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestLandscape-Prefix.pch"; sourceTree = "<group>"; };
+		49915D04171CE6F500025C70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49915D05171CE6F500025C70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49915D07171CE6F500025C70 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		49915D09171CE6F500025C70 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		49915D0B171CE6F500025C70 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		49915D0D171CE6F500025C70 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		49915D0E171CE6F500025C70 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		49915D11171CE6F500025C70 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		49915D14171CE6F500025C70 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		49915D1B171CE84100025C70 /* LandscapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandscapeViewController.h; sourceTree = "<group>"; };
+		49915D1C171CE84100025C70 /* LandscapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandscapeViewController.m; sourceTree = "<group>"; };
+		49915D1D171CE84100025C70 /* LandscapeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LandscapeViewController.xib; sourceTree = "<group>"; };
+		49915D23171CEB9000025C70 /* UINavigationController+Autorotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+Autorotate.h"; path = "../UINavigationController+Autorotate.h"; sourceTree = "<group>"; };
+		49915D24171CEB9000025C70 /* UINavigationController+Autorotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+Autorotate.m"; path = "../UINavigationController+Autorotate.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49915CEF171CE6F500025C70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49915CF6171CE6F500025C70 /* UIKit.framework in Frameworks */,
+				49915CF8171CE6F500025C70 /* Foundation.framework in Frameworks */,
+				49915CFA171CE6F500025C70 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49915CE9171CE6F500025C70 = {
+			isa = PBXGroup;
+			children = (
+				49915CFB171CE6F500025C70 /* TestLandscape */,
+				49915CF4171CE6F500025C70 /* Frameworks */,
+				49915CF3171CE6F500025C70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49915CF3171CE6F500025C70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49915CF2171CE6F500025C70 /* TestLandscape.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49915CF4171CE6F500025C70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49915CF5171CE6F500025C70 /* UIKit.framework */,
+				49915CF7171CE6F500025C70 /* Foundation.framework */,
+				49915CF9171CE6F500025C70 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49915CFB171CE6F500025C70 /* TestLandscape */ = {
+			isa = PBXGroup;
+			children = (
+				49915D23171CEB9000025C70 /* UINavigationController+Autorotate.h */,
+				49915D24171CEB9000025C70 /* UINavigationController+Autorotate.m */,
+				49915D04171CE6F500025C70 /* AppDelegate.h */,
+				49915D05171CE6F500025C70 /* AppDelegate.m */,
+				49915D0D171CE6F500025C70 /* ViewController.h */,
+				49915D0E171CE6F500025C70 /* ViewController.m */,
+				49915D10171CE6F500025C70 /* ViewController_iPhone.xib */,
+				49915D13171CE6F500025C70 /* ViewController_iPad.xib */,
+				49915CFC171CE6F500025C70 /* Supporting Files */,
+				49915D1B171CE84100025C70 /* LandscapeViewController.h */,
+				49915D1C171CE84100025C70 /* LandscapeViewController.m */,
+				49915D1D171CE84100025C70 /* LandscapeViewController.xib */,
+			);
+			path = TestLandscape;
+			sourceTree = "<group>";
+		};
+		49915CFC171CE6F500025C70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49915CFD171CE6F500025C70 /* TestLandscape-Info.plist */,
+				49915CFE171CE6F500025C70 /* InfoPlist.strings */,
+				49915D01171CE6F500025C70 /* main.m */,
+				49915D03171CE6F500025C70 /* TestLandscape-Prefix.pch */,
+				49915D07171CE6F500025C70 /* Default.png */,
+				49915D09171CE6F500025C70 /* Default@2x.png */,
+				49915D0B171CE6F500025C70 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49915CF1171CE6F500025C70 /* TestLandscape */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49915D18171CE6F500025C70 /* Build configuration list for PBXNativeTarget "TestLandscape" */;
+			buildPhases = (
+				49915CEE171CE6F500025C70 /* Sources */,
+				49915CEF171CE6F500025C70 /* Frameworks */,
+				49915CF0171CE6F500025C70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestLandscape;
+			productName = TestLandscape;
+			productReference = 49915CF2171CE6F500025C70 /* TestLandscape.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49915CEA171CE6F500025C70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = swhl;
+			};
+			buildConfigurationList = 49915CED171CE6F500025C70 /* Build configuration list for PBXProject "TestLandscape" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 49915CE9171CE6F500025C70;
+			productRefGroup = 49915CF3171CE6F500025C70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49915CF1171CE6F500025C70 /* TestLandscape */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49915CF0171CE6F500025C70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49915D00171CE6F500025C70 /* InfoPlist.strings in Resources */,
+				49915D08171CE6F500025C70 /* Default.png in Resources */,
+				49915D0A171CE6F500025C70 /* Default@2x.png in Resources */,
+				49915D0C171CE6F500025C70 /* Default-568h@2x.png in Resources */,
+				49915D12171CE6F500025C70 /* ViewController_iPhone.xib in Resources */,
+				49915D15171CE6F500025C70 /* ViewController_iPad.xib in Resources */,
+				49915D1F171CE84100025C70 /* LandscapeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49915CEE171CE6F500025C70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49915D02171CE6F500025C70 /* main.m in Sources */,
+				49915D06171CE6F500025C70 /* AppDelegate.m in Sources */,
+				49915D0F171CE6F500025C70 /* ViewController.m in Sources */,
+				49915D1E171CE84100025C70 /* LandscapeViewController.m in Sources */,
+				49915D25171CEB9000025C70 /* UINavigationController+Autorotate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		49915CFE171CE6F500025C70 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49915CFF171CE6F500025C70 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		49915D10171CE6F500025C70 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49915D11171CE6F500025C70 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		49915D13171CE6F500025C70 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49915D14171CE6F500025C70 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49915D16171CE6F500025C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49915D17171CE6F500025C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49915D19171CE6F500025C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestLandscape/TestLandscape-Prefix.pch";
+				INFOPLIST_FILE = "TestLandscape/TestLandscape-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swhl.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		49915D1A171CE6F500025C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestLandscape/TestLandscape-Prefix.pch";
+				INFOPLIST_FILE = "TestLandscape/TestLandscape-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swhl.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49915CED171CE6F500025C70 /* Build configuration list for PBXProject "TestLandscape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49915D16171CE6F500025C70 /* Debug */,
+				49915D17171CE6F500025C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49915D18171CE6F500025C70 /* Build configuration list for PBXNativeTarget "TestLandscape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49915D19171CE6F500025C70 /* Debug */,
+				49915D1A171CE6F500025C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49915CEA171CE6F500025C70 /* Project object */;
+}

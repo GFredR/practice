@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../VisualEffect&#x5c0f;&#x8bb0;.m">
+   </FileRef>
+   <FileRef
+      location = "self:VisualEffectView.xcodeproj">
+   </FileRef>
+</Workspace>

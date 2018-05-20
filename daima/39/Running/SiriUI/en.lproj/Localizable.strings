@@ -1,0 +1,9 @@
+/* 
+ Localizable.strings
+
+ */
+"Start" = "Start (Text from Running)";
+"Pause" = "Pause (Text from Running)";
+"Resume" = "Resume (Text from Running)";
+"Cancel" = "Cancel (Text from Running)";
+"End" = "End (Text from Running)";

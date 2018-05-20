@@ -1,0 +1,805 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84233E031CC7D6C900B0653F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84233E021CC7D6C900B0653F /* main.m */; };
+		84233E061CC7D6C900B0653F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84233E051CC7D6C900B0653F /* AppDelegate.m */; };
+		84233E091CC7D6C900B0653F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84233E081CC7D6C900B0653F /* ViewController.m */; };
+		84233E0C1CC7D6C900B0653F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84233E0A1CC7D6C900B0653F /* Main.storyboard */; };
+		84233E0E1CC7D6C900B0653F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84233E0D1CC7D6C900B0653F /* Assets.xcassets */; };
+		84233E111CC7D6C900B0653F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84233E0F1CC7D6C900B0653F /* LaunchScreen.storyboard */; };
+		84233E1C1CC7D6C900B0653F /* SmartTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84233E1B1CC7D6C900B0653F /* SmartTimerTests.m */; };
+		84233E271CC7D6C900B0653F /* SmartTimerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84233E261CC7D6C900B0653F /* SmartTimerUITests.m */; };
+		84233E2C1CC7D6C900B0653F /* SmartTimer WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 84233E2B1CC7D6C900B0653F /* SmartTimer WatchKit App.app */; };
+		84233E321CC7D6C900B0653F /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84233E301CC7D6C900B0653F /* Interface.storyboard */; };
+		84233E341CC7D6C900B0653F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84233E331CC7D6C900B0653F /* Assets.xcassets */; };
+		84233E3B1CC7D6CA00B0653F /* SmartTimer WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 84233E3A1CC7D6CA00B0653F /* SmartTimer WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		84233E431CC7D6CA00B0653F /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84233E421CC7D6CA00B0653F /* InterfaceController.m */; };
+		84233E461CC7D6CA00B0653F /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84233E451CC7D6CA00B0653F /* ExtensionDelegate.m */; };
+		84233E491CC7D6CA00B0653F /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84233E481CC7D6CA00B0653F /* NotificationController.m */; };
+		84233E4B1CC7D6CA00B0653F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84233E4A1CC7D6CA00B0653F /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84233E181CC7D6C900B0653F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84233DF61CC7D6C900B0653F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84233DFD1CC7D6C900B0653F;
+			remoteInfo = SmartTimer;
+		};
+		84233E231CC7D6C900B0653F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84233DF61CC7D6C900B0653F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84233DFD1CC7D6C900B0653F;
+			remoteInfo = SmartTimer;
+		};
+		84233E2D1CC7D6C900B0653F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84233DF61CC7D6C900B0653F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84233E2A1CC7D6C900B0653F;
+			remoteInfo = "SmartTimer WatchKit App";
+		};
+		84233E3C1CC7D6CA00B0653F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84233DF61CC7D6C900B0653F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84233E391CC7D6CA00B0653F;
+			remoteInfo = "SmartTimer WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84233E521CC7D6CA00B0653F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				84233E3B1CC7D6CA00B0653F /* SmartTimer WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84233E561CC7D6CA00B0653F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				84233E2C1CC7D6C900B0653F /* SmartTimer WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		84233DFE1CC7D6C900B0653F /* SmartTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84233E021CC7D6C900B0653F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84233E041CC7D6C900B0653F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84233E051CC7D6C900B0653F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84233E071CC7D6C900B0653F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84233E081CC7D6C900B0653F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84233E0B1CC7D6C900B0653F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84233E0D1CC7D6C900B0653F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84233E101CC7D6C900B0653F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84233E121CC7D6C900B0653F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84233E171CC7D6C900B0653F /* SmartTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84233E1B1CC7D6C900B0653F /* SmartTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartTimerTests.m; sourceTree = "<group>"; };
+		84233E1D1CC7D6C900B0653F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84233E221CC7D6C900B0653F /* SmartTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84233E261CC7D6C900B0653F /* SmartTimerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartTimerUITests.m; sourceTree = "<group>"; };
+		84233E281CC7D6C900B0653F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84233E2B1CC7D6C900B0653F /* SmartTimer WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SmartTimer WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84233E311CC7D6C900B0653F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		84233E331CC7D6C900B0653F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84233E351CC7D6C900B0653F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84233E3A1CC7D6CA00B0653F /* SmartTimer WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SmartTimer WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84233E401CC7D6CA00B0653F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		84233E411CC7D6CA00B0653F /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		84233E421CC7D6CA00B0653F /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		84233E441CC7D6CA00B0653F /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		84233E451CC7D6CA00B0653F /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		84233E471CC7D6CA00B0653F /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		84233E481CC7D6CA00B0653F /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		84233E4A1CC7D6CA00B0653F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84233E4C1CC7D6CA00B0653F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84233DFB1CC7D6C900B0653F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84233E141CC7D6C900B0653F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84233E1F1CC7D6C900B0653F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84233E371CC7D6CA00B0653F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84233DF51CC7D6C900B0653F = {
+			isa = PBXGroup;
+			children = (
+				84233E001CC7D6C900B0653F /* SmartTimer */,
+				84233E1A1CC7D6C900B0653F /* SmartTimerTests */,
+				84233E251CC7D6C900B0653F /* SmartTimerUITests */,
+				84233E2F1CC7D6C900B0653F /* SmartTimer WatchKit App */,
+				84233E3E1CC7D6CA00B0653F /* SmartTimer WatchKit Extension */,
+				84233DFF1CC7D6C900B0653F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84233DFF1CC7D6C900B0653F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84233DFE1CC7D6C900B0653F /* SmartTimer.app */,
+				84233E171CC7D6C900B0653F /* SmartTimerTests.xctest */,
+				84233E221CC7D6C900B0653F /* SmartTimerUITests.xctest */,
+				84233E2B1CC7D6C900B0653F /* SmartTimer WatchKit App.app */,
+				84233E3A1CC7D6CA00B0653F /* SmartTimer WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84233E001CC7D6C900B0653F /* SmartTimer */ = {
+			isa = PBXGroup;
+			children = (
+				84233E041CC7D6C900B0653F /* AppDelegate.h */,
+				84233E051CC7D6C900B0653F /* AppDelegate.m */,
+				84233E071CC7D6C900B0653F /* ViewController.h */,
+				84233E081CC7D6C900B0653F /* ViewController.m */,
+				84233E0A1CC7D6C900B0653F /* Main.storyboard */,
+				84233E0D1CC7D6C900B0653F /* Assets.xcassets */,
+				84233E0F1CC7D6C900B0653F /* LaunchScreen.storyboard */,
+				84233E121CC7D6C900B0653F /* Info.plist */,
+				84233E011CC7D6C900B0653F /* Supporting Files */,
+			);
+			path = SmartTimer;
+			sourceTree = "<group>";
+		};
+		84233E011CC7D6C900B0653F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84233E021CC7D6C900B0653F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84233E1A1CC7D6C900B0653F /* SmartTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				84233E1B1CC7D6C900B0653F /* SmartTimerTests.m */,
+				84233E1D1CC7D6C900B0653F /* Info.plist */,
+			);
+			path = SmartTimerTests;
+			sourceTree = "<group>";
+		};
+		84233E251CC7D6C900B0653F /* SmartTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84233E261CC7D6C900B0653F /* SmartTimerUITests.m */,
+				84233E281CC7D6C900B0653F /* Info.plist */,
+			);
+			path = SmartTimerUITests;
+			sourceTree = "<group>";
+		};
+		84233E2F1CC7D6C900B0653F /* SmartTimer WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				84233E301CC7D6C900B0653F /* Interface.storyboard */,
+				84233E331CC7D6C900B0653F /* Assets.xcassets */,
+				84233E351CC7D6C900B0653F /* Info.plist */,
+			);
+			path = "SmartTimer WatchKit App";
+			sourceTree = "<group>";
+		};
+		84233E3E1CC7D6CA00B0653F /* SmartTimer WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				84233E411CC7D6CA00B0653F /* InterfaceController.h */,
+				84233E421CC7D6CA00B0653F /* InterfaceController.m */,
+				84233E441CC7D6CA00B0653F /* ExtensionDelegate.h */,
+				84233E451CC7D6CA00B0653F /* ExtensionDelegate.m */,
+				84233E471CC7D6CA00B0653F /* NotificationController.h */,
+				84233E481CC7D6CA00B0653F /* NotificationController.m */,
+				84233E4A1CC7D6CA00B0653F /* Assets.xcassets */,
+				84233E4C1CC7D6CA00B0653F /* Info.plist */,
+				84233E3F1CC7D6CA00B0653F /* Supporting Files */,
+			);
+			path = "SmartTimer WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		84233E3F1CC7D6CA00B0653F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84233E401CC7D6CA00B0653F /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84233DFD1CC7D6C900B0653F /* SmartTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84233E571CC7D6CA00B0653F /* Build configuration list for PBXNativeTarget "SmartTimer" */;
+			buildPhases = (
+				84233DFA1CC7D6C900B0653F /* Sources */,
+				84233DFB1CC7D6C900B0653F /* Frameworks */,
+				84233DFC1CC7D6C900B0653F /* Resources */,
+				84233E561CC7D6CA00B0653F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84233E2E1CC7D6C900B0653F /* PBXTargetDependency */,
+			);
+			name = SmartTimer;
+			productName = SmartTimer;
+			productReference = 84233DFE1CC7D6C900B0653F /* SmartTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84233E161CC7D6C900B0653F /* SmartTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84233E5A1CC7D6CA00B0653F /* Build configuration list for PBXNativeTarget "SmartTimerTests" */;
+			buildPhases = (
+				84233E131CC7D6C900B0653F /* Sources */,
+				84233E141CC7D6C900B0653F /* Frameworks */,
+				84233E151CC7D6C900B0653F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84233E191CC7D6C900B0653F /* PBXTargetDependency */,
+			);
+			name = SmartTimerTests;
+			productName = SmartTimerTests;
+			productReference = 84233E171CC7D6C900B0653F /* SmartTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84233E211CC7D6C900B0653F /* SmartTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84233E5D1CC7D6CA00B0653F /* Build configuration list for PBXNativeTarget "SmartTimerUITests" */;
+			buildPhases = (
+				84233E1E1CC7D6C900B0653F /* Sources */,
+				84233E1F1CC7D6C900B0653F /* Frameworks */,
+				84233E201CC7D6C900B0653F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84233E241CC7D6C900B0653F /* PBXTargetDependency */,
+			);
+			name = SmartTimerUITests;
+			productName = SmartTimerUITests;
+			productReference = 84233E221CC7D6C900B0653F /* SmartTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		84233E2A1CC7D6C900B0653F /* SmartTimer WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84233E531CC7D6CA00B0653F /* Build configuration list for PBXNativeTarget "SmartTimer WatchKit App" */;
+			buildPhases = (
+				84233E291CC7D6C900B0653F /* Resources */,
+				84233E521CC7D6CA00B0653F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84233E3D1CC7D6CA00B0653F /* PBXTargetDependency */,
+			);
+			name = "SmartTimer WatchKit App";
+			productName = "SmartTimer WatchKit App";
+			productReference = 84233E2B1CC7D6C900B0653F /* SmartTimer WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		84233E391CC7D6CA00B0653F /* SmartTimer WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84233E4F1CC7D6CA00B0653F /* Build configuration list for PBXNativeTarget "SmartTimer WatchKit Extension" */;
+			buildPhases = (
+				84233E361CC7D6CA00B0653F /* Sources */,
+				84233E371CC7D6CA00B0653F /* Frameworks */,
+				84233E381CC7D6CA00B0653F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SmartTimer WatchKit Extension";
+			productName = "SmartTimer WatchKit Extension";
+			productReference = 84233E3A1CC7D6CA00B0653F /* SmartTimer WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84233DF61CC7D6C900B0653F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					84233DFD1CC7D6C900B0653F = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4FA6W7YQGP;
+						DevelopmentTeamName = "guan jing (Personal Team)";
+					};
+					84233E161CC7D6C900B0653F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 84233DFD1CC7D6C900B0653F;
+					};
+					84233E211CC7D6C900B0653F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 84233DFD1CC7D6C900B0653F;
+					};
+					84233E2A1CC7D6C900B0653F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					84233E391CC7D6CA00B0653F = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4FA6W7YQGP;
+						DevelopmentTeamName = "guan jing (Personal Team)";
+					};
+				};
+			};
+			buildConfigurationList = 84233DF91CC7D6C900B0653F /* Build configuration list for PBXProject "SmartTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84233DF51CC7D6C900B0653F;
+			productRefGroup = 84233DFF1CC7D6C900B0653F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84233DFD1CC7D6C900B0653F /* SmartTimer */,
+				84233E161CC7D6C900B0653F /* SmartTimerTests */,
+				84233E211CC7D6C900B0653F /* SmartTimerUITests */,
+				84233E2A1CC7D6C900B0653F /* SmartTimer WatchKit App */,
+				84233E391CC7D6CA00B0653F /* SmartTimer WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84233DFC1CC7D6C900B0653F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84233E111CC7D6C900B0653F /* LaunchScreen.storyboard in Resources */,
+				84233E0E1CC7D6C900B0653F /* Assets.xcassets in Resources */,
+				84233E0C1CC7D6C900B0653F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84233E151CC7D6C900B0653F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84233E201CC7D6C900B0653F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84233E291CC7D6C900B0653F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84233E341CC7D6C900B0653F /* Assets.xcassets in Resources */,
+				84233E321CC7D6C900B0653F /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84233E381CC7D6CA00B0653F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84233E4B1CC7D6CA00B0653F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84233DFA1CC7D6C900B0653F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84233E091CC7D6C900B0653F /* ViewController.m in Sources */,
+				84233E061CC7D6C900B0653F /* AppDelegate.m in Sources */,
+				84233E031CC7D6C900B0653F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84233E131CC7D6C900B0653F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84233E1C1CC7D6C900B0653F /* SmartTimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84233E1E1CC7D6C900B0653F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84233E271CC7D6C900B0653F /* SmartTimerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84233E361CC7D6CA00B0653F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84233E461CC7D6CA00B0653F /* ExtensionDelegate.m in Sources */,
+				84233E431CC7D6CA00B0653F /* InterfaceController.m in Sources */,
+				84233E491CC7D6CA00B0653F /* NotificationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84233E191CC7D6C900B0653F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84233DFD1CC7D6C900B0653F /* SmartTimer */;
+			targetProxy = 84233E181CC7D6C900B0653F /* PBXContainerItemProxy */;
+		};
+		84233E241CC7D6C900B0653F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84233DFD1CC7D6C900B0653F /* SmartTimer */;
+			targetProxy = 84233E231CC7D6C900B0653F /* PBXContainerItemProxy */;
+		};
+		84233E2E1CC7D6C900B0653F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84233E2A1CC7D6C900B0653F /* SmartTimer WatchKit App */;
+			targetProxy = 84233E2D1CC7D6C900B0653F /* PBXContainerItemProxy */;
+		};
+		84233E3D1CC7D6CA00B0653F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84233E391CC7D6CA00B0653F /* SmartTimer WatchKit Extension */;
+			targetProxy = 84233E3C1CC7D6CA00B0653F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84233E0A1CC7D6C900B0653F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84233E0B1CC7D6C900B0653F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84233E0F1CC7D6C900B0653F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84233E101CC7D6C900B0653F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		84233E301CC7D6C900B0653F /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84233E311CC7D6C900B0653F /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84233E4D1CC7D6CA00B0653F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84233E4E1CC7D6CA00B0653F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84233E501CC7D6CA00B0653F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "SmartTimer WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.misko.SmartTimer.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		84233E511CC7D6CA00B0653F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "SmartTimer WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.misko.SmartTimer.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		84233E541CC7D6CA00B0653F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = SmartTimer_WatchKit_Extension;
+				INFOPLIST_FILE = "SmartTimer WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.misko.SmartTimer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		84233E551CC7D6CA00B0653F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = SmartTimer_WatchKit_Extension;
+				INFOPLIST_FILE = "SmartTimer WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.misko.SmartTimer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		84233E581CC7D6CA00B0653F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmartTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.misko.SmartTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84233E591CC7D6CA00B0653F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmartTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.misko.SmartTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84233E5B1CC7D6CA00B0653F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmartTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.misko.SmartTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartTimer.app/SmartTimer";
+			};
+			name = Debug;
+		};
+		84233E5C1CC7D6CA00B0653F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmartTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.misko.SmartTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartTimer.app/SmartTimer";
+			};
+			name = Release;
+		};
+		84233E5E1CC7D6CA00B0653F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SmartTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.misko.SmartTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SmartTimer;
+			};
+			name = Debug;
+		};
+		84233E5F1CC7D6CA00B0653F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SmartTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.misko.SmartTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SmartTimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84233DF91CC7D6C900B0653F /* Build configuration list for PBXProject "SmartTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84233E4D1CC7D6CA00B0653F /* Debug */,
+				84233E4E1CC7D6CA00B0653F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84233E4F1CC7D6CA00B0653F /* Build configuration list for PBXNativeTarget "SmartTimer WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84233E501CC7D6CA00B0653F /* Debug */,
+				84233E511CC7D6CA00B0653F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84233E531CC7D6CA00B0653F /* Build configuration list for PBXNativeTarget "SmartTimer WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84233E541CC7D6CA00B0653F /* Debug */,
+				84233E551CC7D6CA00B0653F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84233E571CC7D6CA00B0653F /* Build configuration list for PBXNativeTarget "SmartTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84233E581CC7D6CA00B0653F /* Debug */,
+				84233E591CC7D6CA00B0653F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84233E5A1CC7D6CA00B0653F /* Build configuration list for PBXNativeTarget "SmartTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84233E5B1CC7D6CA00B0653F /* Debug */,
+				84233E5C1CC7D6CA00B0653F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84233E5D1CC7D6CA00B0653F /* Build configuration list for PBXNativeTarget "SmartTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84233E5E1CC7D6CA00B0653F /* Debug */,
+				84233E5F1CC7D6CA00B0653F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84233DF61CC7D6C900B0653F /* Project object */;
+}

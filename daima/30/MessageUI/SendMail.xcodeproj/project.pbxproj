@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD9FB0241AB8132A00FD1510 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9FB0231AB8132A00FD1510 /* AppDelegate.swift */; };
+		DD9FB0261AB8132A00FD1510 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9FB0251AB8132A00FD1510 /* ViewController.swift */; };
+		DD9FB0291AB8132A00FD1510 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD9FB0271AB8132A00FD1510 /* Main.storyboard */; };
+		DD9FB02B1AB8132A00FD1510 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD9FB02A1AB8132A00FD1510 /* Images.xcassets */; };
+		DD9FB02E1AB8132A00FD1510 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD9FB02C1AB8132A00FD1510 /* LaunchScreen.xib */; };
+		DD9FB03A1AB8132A00FD1510 /* SendMailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9FB0391AB8132A00FD1510 /* SendMailTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD9FB0341AB8132A00FD1510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD9FB0161AB8132900FD1510 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD9FB01D1AB8132A00FD1510;
+			remoteInfo = SendMail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD9FB01E1AB8132A00FD1510 /* SendMail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendMail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9FB0221AB8132A00FD1510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD9FB0231AB8132A00FD1510 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD9FB0251AB8132A00FD1510 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD9FB0281AB8132A00FD1510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD9FB02A1AB8132A00FD1510 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DD9FB02D1AB8132A00FD1510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DD9FB0331AB8132A00FD1510 /* SendMailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendMailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9FB0381AB8132A00FD1510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD9FB0391AB8132A00FD1510 /* SendMailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMailTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD9FB01B1AB8132A00FD1510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9FB0301AB8132A00FD1510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD9FB0151AB8132900FD1510 = {
+			isa = PBXGroup;
+			children = (
+				DD9FB0201AB8132A00FD1510 /* SendMail */,
+				DD9FB0361AB8132A00FD1510 /* SendMailTests */,
+				DD9FB01F1AB8132A00FD1510 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD9FB01F1AB8132A00FD1510 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD9FB01E1AB8132A00FD1510 /* SendMail.app */,
+				DD9FB0331AB8132A00FD1510 /* SendMailTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD9FB0201AB8132A00FD1510 /* SendMail */ = {
+			isa = PBXGroup;
+			children = (
+				DD9FB0231AB8132A00FD1510 /* AppDelegate.swift */,
+				DD9FB0251AB8132A00FD1510 /* ViewController.swift */,
+				DD9FB0271AB8132A00FD1510 /* Main.storyboard */,
+				DD9FB02A1AB8132A00FD1510 /* Images.xcassets */,
+				DD9FB02C1AB8132A00FD1510 /* LaunchScreen.xib */,
+				DD9FB0211AB8132A00FD1510 /* Supporting Files */,
+			);
+			path = SendMail;
+			sourceTree = "<group>";
+		};
+		DD9FB0211AB8132A00FD1510 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD9FB0221AB8132A00FD1510 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD9FB0361AB8132A00FD1510 /* SendMailTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD9FB0391AB8132A00FD1510 /* SendMailTests.swift */,
+				DD9FB0371AB8132A00FD1510 /* Supporting Files */,
+			);
+			path = SendMailTests;
+			sourceTree = "<group>";
+		};
+		DD9FB0371AB8132A00FD1510 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD9FB0381AB8132A00FD1510 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD9FB01D1AB8132A00FD1510 /* SendMail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD9FB03D1AB8132A00FD1510 /* Build configuration list for PBXNativeTarget "SendMail" */;
+			buildPhases = (
+				DD9FB01A1AB8132A00FD1510 /* Sources */,
+				DD9FB01B1AB8132A00FD1510 /* Frameworks */,
+				DD9FB01C1AB8132A00FD1510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SendMail;
+			productName = SendMail;
+			productReference = DD9FB01E1AB8132A00FD1510 /* SendMail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD9FB0321AB8132A00FD1510 /* SendMailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD9FB0401AB8132A00FD1510 /* Build configuration list for PBXNativeTarget "SendMailTests" */;
+			buildPhases = (
+				DD9FB02F1AB8132A00FD1510 /* Sources */,
+				DD9FB0301AB8132A00FD1510 /* Frameworks */,
+				DD9FB0311AB8132A00FD1510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD9FB0351AB8132A00FD1510 /* PBXTargetDependency */,
+			);
+			name = SendMailTests;
+			productName = SendMailTests;
+			productReference = DD9FB0331AB8132A00FD1510 /* SendMailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD9FB0161AB8132900FD1510 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Kiattisak Anoochitarom";
+				TargetAttributes = {
+					DD9FB01D1AB8132A00FD1510 = {
+						CreatedOnToolsVersion = 6.2;
+						LastSwiftMigration = 0800;
+					};
+					DD9FB0321AB8132A00FD1510 = {
+						CreatedOnToolsVersion = 6.2;
+						LastSwiftMigration = 0800;
+						TestTargetID = DD9FB01D1AB8132A00FD1510;
+					};
+				};
+			};
+			buildConfigurationList = DD9FB0191AB8132900FD1510 /* Build configuration list for PBXProject "SendMail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD9FB0151AB8132900FD1510;
+			productRefGroup = DD9FB01F1AB8132A00FD1510 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD9FB01D1AB8132A00FD1510 /* SendMail */,
+				DD9FB0321AB8132A00FD1510 /* SendMailTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD9FB01C1AB8132A00FD1510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9FB0291AB8132A00FD1510 /* Main.storyboard in Resources */,
+				DD9FB02E1AB8132A00FD1510 /* LaunchScreen.xib in Resources */,
+				DD9FB02B1AB8132A00FD1510 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9FB0311AB8132A00FD1510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD9FB01A1AB8132A00FD1510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9FB0261AB8132A00FD1510 /* ViewController.swift in Sources */,
+				DD9FB0241AB8132A00FD1510 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9FB02F1AB8132A00FD1510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9FB03A1AB8132A00FD1510 /* SendMailTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD9FB0351AB8132A00FD1510 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD9FB01D1AB8132A00FD1510 /* SendMail */;
+			targetProxy = DD9FB0341AB8132A00FD1510 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD9FB0271AB8132A00FD1510 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD9FB0281AB8132A00FD1510 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD9FB02C1AB8132A00FD1510 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD9FB02D1AB8132A00FD1510 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD9FB03B1AB8132A00FD1510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD9FB03C1AB8132A00FD1510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD9FB03E1AB8132A00FD1510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SendMail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.macbaszii.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DD9FB03F1AB8132A00FD1510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SendMail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.macbaszii.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DD9FB0411AB8132A00FD1510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SendMailTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.macbaszii.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendMail.app/SendMail";
+			};
+			name = Debug;
+		};
+		DD9FB0421AB8132A00FD1510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SendMailTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.macbaszii.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendMail.app/SendMail";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD9FB0191AB8132900FD1510 /* Build configuration list for PBXProject "SendMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9FB03B1AB8132A00FD1510 /* Debug */,
+				DD9FB03C1AB8132A00FD1510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD9FB03D1AB8132A00FD1510 /* Build configuration list for PBXNativeTarget "SendMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9FB03E1AB8132A00FD1510 /* Debug */,
+				DD9FB03F1AB8132A00FD1510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD9FB0401AB8132A00FD1510 /* Build configuration list for PBXNativeTarget "SendMailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9FB0411AB8132A00FD1510 /* Debug */,
+				DD9FB0421AB8132A00FD1510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD9FB0161AB8132900FD1510 /* Project object */;
+}

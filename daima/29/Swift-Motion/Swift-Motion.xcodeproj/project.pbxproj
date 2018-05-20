@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC2DE4AC1A2EC17600E9C095 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC2DE4AB1A2EC17600E9C095 /* CoreMotion.framework */; };
+		EE08D360197B6CE400FCC559 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08D35F197B6CE400FCC559 /* AppDelegate.swift */; };
+		EE08D362197B6CE400FCC559 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08D361197B6CE400FCC559 /* ViewController.swift */; };
+		EE08D365197B6CE400FCC559 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE08D363197B6CE400FCC559 /* Main.storyboard */; };
+		EE08D367197B6CE400FCC559 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE08D366197B6CE400FCC559 /* Images.xcassets */; };
+		EE08D373197B6CE500FCC559 /* Swift_MotionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08D372197B6CE500FCC559 /* Swift_MotionTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE08D36D197B6CE500FCC559 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE08D352197B6CE400FCC559 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE08D359197B6CE400FCC559;
+			remoteInfo = "Swift-Motion";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC2DE4AB1A2EC17600E9C095 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		EE08D35A197B6CE400FCC559 /* Swift-Motion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Motion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE08D35E197B6CE400FCC559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE08D35F197B6CE400FCC559 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE08D361197B6CE400FCC559 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE08D364197B6CE400FCC559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE08D366197B6CE400FCC559 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EE08D36C197B6CE500FCC559 /* Swift-MotionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-MotionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE08D371197B6CE500FCC559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE08D372197B6CE500FCC559 /* Swift_MotionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_MotionTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE08D357197B6CE400FCC559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2DE4AC1A2EC17600E9C095 /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE08D369197B6CE500FCC559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE08D351197B6CE400FCC559 = {
+			isa = PBXGroup;
+			children = (
+				AC2DE4AB1A2EC17600E9C095 /* CoreMotion.framework */,
+				EE08D35C197B6CE400FCC559 /* Swift-Motion */,
+				EE08D36F197B6CE500FCC559 /* Swift-MotionTests */,
+				EE08D35B197B6CE400FCC559 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE08D35B197B6CE400FCC559 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE08D35A197B6CE400FCC559 /* Swift-Motion.app */,
+				EE08D36C197B6CE500FCC559 /* Swift-MotionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE08D35C197B6CE400FCC559 /* Swift-Motion */ = {
+			isa = PBXGroup;
+			children = (
+				EE08D35F197B6CE400FCC559 /* AppDelegate.swift */,
+				EE08D361197B6CE400FCC559 /* ViewController.swift */,
+				EE08D363197B6CE400FCC559 /* Main.storyboard */,
+				EE08D366197B6CE400FCC559 /* Images.xcassets */,
+				EE08D35D197B6CE400FCC559 /* Supporting Files */,
+			);
+			path = "Swift-Motion";
+			sourceTree = "<group>";
+		};
+		EE08D35D197B6CE400FCC559 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE08D35E197B6CE400FCC559 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE08D36F197B6CE500FCC559 /* Swift-MotionTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE08D372197B6CE500FCC559 /* Swift_MotionTests.swift */,
+				EE08D370197B6CE500FCC559 /* Supporting Files */,
+			);
+			path = "Swift-MotionTests";
+			sourceTree = "<group>";
+		};
+		EE08D370197B6CE500FCC559 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE08D371197B6CE500FCC559 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE08D359197B6CE400FCC559 /* Swift-Motion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE08D376197B6CE500FCC559 /* Build configuration list for PBXNativeTarget "Swift-Motion" */;
+			buildPhases = (
+				EE08D356197B6CE400FCC559 /* Sources */,
+				EE08D357197B6CE400FCC559 /* Frameworks */,
+				EE08D358197B6CE400FCC559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift-Motion";
+			productName = "Swift-Motion";
+			productReference = EE08D35A197B6CE400FCC559 /* Swift-Motion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE08D36B197B6CE500FCC559 /* Swift-MotionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE08D379197B6CE500FCC559 /* Build configuration list for PBXNativeTarget "Swift-MotionTests" */;
+			buildPhases = (
+				EE08D368197B6CE500FCC559 /* Sources */,
+				EE08D369197B6CE500FCC559 /* Frameworks */,
+				EE08D36A197B6CE500FCC559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE08D36E197B6CE500FCC559 /* PBXTargetDependency */,
+			);
+			name = "Swift-MotionTests";
+			productName = "Swift-MotionTests";
+			productReference = EE08D36C197B6CE500FCC559 /* Swift-MotionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE08D352197B6CE400FCC559 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = MIYADi;
+				TargetAttributes = {
+					EE08D359197B6CE400FCC559 = {
+						CreatedOnToolsVersion = 6.0;
+						LastSwiftMigration = 0800;
+					};
+					EE08D36B197B6CE500FCC559 = {
+						CreatedOnToolsVersion = 6.0;
+						LastSwiftMigration = 0800;
+						TestTargetID = EE08D359197B6CE400FCC559;
+					};
+				};
+			};
+			buildConfigurationList = EE08D355197B6CE400FCC559 /* Build configuration list for PBXProject "Swift-Motion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE08D351197B6CE400FCC559;
+			productRefGroup = EE08D35B197B6CE400FCC559 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE08D359197B6CE400FCC559 /* Swift-Motion */,
+				EE08D36B197B6CE500FCC559 /* Swift-MotionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE08D358197B6CE400FCC559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE08D365197B6CE400FCC559 /* Main.storyboard in Resources */,
+				EE08D367197B6CE400FCC559 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE08D36A197B6CE500FCC559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE08D356197B6CE400FCC559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE08D362197B6CE400FCC559 /* ViewController.swift in Sources */,
+				EE08D360197B6CE400FCC559 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE08D368197B6CE500FCC559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE08D373197B6CE500FCC559 /* Swift_MotionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE08D36E197B6CE500FCC559 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE08D359197B6CE400FCC559 /* Swift-Motion */;
+			targetProxy = EE08D36D197B6CE500FCC559 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE08D363197B6CE400FCC559 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE08D364197B6CE400FCC559 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE08D374197B6CE500FCC559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE08D375197B6CE500FCC559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE08D377197B6CE500FCC559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Swift-Motion/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.MIYADi.test.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EE08D378197B6CE500FCC559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Swift-Motion/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.MIYADi.test.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EE08D37A197B6CE500FCC559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Swift-Motion.app/Swift-Motion";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Swift-MotionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.MIYADi.test.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		EE08D37B197B6CE500FCC559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Swift-Motion.app/Swift-Motion";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Swift-MotionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.MIYADi.test.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE08D355197B6CE400FCC559 /* Build configuration list for PBXProject "Swift-Motion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE08D374197B6CE500FCC559 /* Debug */,
+				EE08D375197B6CE500FCC559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE08D376197B6CE500FCC559 /* Build configuration list for PBXNativeTarget "Swift-Motion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE08D377197B6CE500FCC559 /* Debug */,
+				EE08D378197B6CE500FCC559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE08D379197B6CE500FCC559 /* Build configuration list for PBXNativeTarget "Swift-MotionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE08D37A197B6CE500FCC559 /* Debug */,
+				EE08D37B197B6CE500FCC559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE08D352197B6CE400FCC559 /* Project object */;
+}

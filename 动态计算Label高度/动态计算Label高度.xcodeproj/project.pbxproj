@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		786AE6EF1F173C980060C971 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 786AE6EE1F173C980060C971 /* main.m */; };
+		786AE6F21F173C980060C971 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 786AE6F11F173C980060C971 /* AppDelegate.m */; };
+		786AE6F51F173C980060C971 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 786AE6F41F173C980060C971 /* ViewController.m */; };
+		786AE6F81F173C980060C971 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 786AE6F61F173C980060C971 /* Main.storyboard */; };
+		786AE6FA1F173C980060C971 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 786AE6F91F173C980060C971 /* Assets.xcassets */; };
+		786AE6FD1F173C980060C971 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 786AE6FB1F173C980060C971 /* LaunchScreen.storyboard */; };
+		786AE7081F173C980060C971 /* ____Label__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 786AE7071F173C980060C971 /* ____Label__Tests.m */; };
+		786AE7131F173C980060C971 /* ____Label__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 786AE7121F173C980060C971 /* ____Label__UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		786AE7041F173C980060C971 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 786AE6E21F173C980060C971 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 786AE6E91F173C980060C971;
+			remoteInfo = "动态计算Label高度";
+		};
+		786AE70F1F173C980060C971 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 786AE6E21F173C980060C971 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 786AE6E91F173C980060C971;
+			remoteInfo = "动态计算Label高度";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		786AE6EA1F173C980060C971 /* 动态计算Label高度.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "动态计算Label高度.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		786AE6EE1F173C980060C971 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		786AE6F01F173C980060C971 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		786AE6F11F173C980060C971 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		786AE6F31F173C980060C971 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		786AE6F41F173C980060C971 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		786AE6F71F173C980060C971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		786AE6F91F173C980060C971 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		786AE6FC1F173C980060C971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		786AE6FE1F173C980060C971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		786AE7031F173C980060C971 /* 动态计算Label高度Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "动态计算Label高度Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		786AE7071F173C980060C971 /* ____Label__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Label__Tests.m"; sourceTree = "<group>"; };
+		786AE7091F173C980060C971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		786AE70E1F173C980060C971 /* 动态计算Label高度UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "动态计算Label高度UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		786AE7121F173C980060C971 /* ____Label__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Label__UITests.m"; sourceTree = "<group>"; };
+		786AE7141F173C980060C971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		786AE6E71F173C980060C971 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		786AE7001F173C980060C971 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		786AE70B1F173C980060C971 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		786AE6E11F173C980060C971 = {
+			isa = PBXGroup;
+			children = (
+				786AE6EC1F173C980060C971 /* 动态计算Label高度 */,
+				786AE7061F173C980060C971 /* 动态计算Label高度Tests */,
+				786AE7111F173C980060C971 /* 动态计算Label高度UITests */,
+				786AE6EB1F173C980060C971 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		786AE6EB1F173C980060C971 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				786AE6EA1F173C980060C971 /* 动态计算Label高度.app */,
+				786AE7031F173C980060C971 /* 动态计算Label高度Tests.xctest */,
+				786AE70E1F173C980060C971 /* 动态计算Label高度UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		786AE6EC1F173C980060C971 /* 动态计算Label高度 */ = {
+			isa = PBXGroup;
+			children = (
+				786AE6F01F173C980060C971 /* AppDelegate.h */,
+				786AE6F11F173C980060C971 /* AppDelegate.m */,
+				786AE6F31F173C980060C971 /* ViewController.h */,
+				786AE6F41F173C980060C971 /* ViewController.m */,
+				786AE6F61F173C980060C971 /* Main.storyboard */,
+				786AE6F91F173C980060C971 /* Assets.xcassets */,
+				786AE6FB1F173C980060C971 /* LaunchScreen.storyboard */,
+				786AE6FE1F173C980060C971 /* Info.plist */,
+				786AE6ED1F173C980060C971 /* Supporting Files */,
+			);
+			path = "动态计算Label高度";
+			sourceTree = "<group>";
+		};
+		786AE6ED1F173C980060C971 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				786AE6EE1F173C980060C971 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		786AE7061F173C980060C971 /* 动态计算Label高度Tests */ = {
+			isa = PBXGroup;
+			children = (
+				786AE7071F173C980060C971 /* ____Label__Tests.m */,
+				786AE7091F173C980060C971 /* Info.plist */,
+			);
+			path = "动态计算Label高度Tests";
+			sourceTree = "<group>";
+		};
+		786AE7111F173C980060C971 /* 动态计算Label高度UITests */ = {
+			isa = PBXGroup;
+			children = (
+				786AE7121F173C980060C971 /* ____Label__UITests.m */,
+				786AE7141F173C980060C971 /* Info.plist */,
+			);
+			path = "动态计算Label高度UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		786AE6E91F173C980060C971 /* 动态计算Label高度 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 786AE7171F173C980060C971 /* Build configuration list for PBXNativeTarget "动态计算Label高度" */;
+			buildPhases = (
+				786AE6E61F173C980060C971 /* Sources */,
+				786AE6E71F173C980060C971 /* Frameworks */,
+				786AE6E81F173C980060C971 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "动态计算Label高度";
+			productName = "动态计算Label高度";
+			productReference = 786AE6EA1F173C980060C971 /* 动态计算Label高度.app */;
+			productType = "com.apple.product-type.application";
+		};
+		786AE7021F173C980060C971 /* 动态计算Label高度Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 786AE71A1F173C980060C971 /* Build configuration list for PBXNativeTarget "动态计算Label高度Tests" */;
+			buildPhases = (
+				786AE6FF1F173C980060C971 /* Sources */,
+				786AE7001F173C980060C971 /* Frameworks */,
+				786AE7011F173C980060C971 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				786AE7051F173C980060C971 /* PBXTargetDependency */,
+			);
+			name = "动态计算Label高度Tests";
+			productName = "动态计算Label高度Tests";
+			productReference = 786AE7031F173C980060C971 /* 动态计算Label高度Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		786AE70D1F173C980060C971 /* 动态计算Label高度UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 786AE71D1F173C980060C971 /* Build configuration list for PBXNativeTarget "动态计算Label高度UITests" */;
+			buildPhases = (
+				786AE70A1F173C980060C971 /* Sources */,
+				786AE70B1F173C980060C971 /* Frameworks */,
+				786AE70C1F173C980060C971 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				786AE7101F173C980060C971 /* PBXTargetDependency */,
+			);
+			name = "动态计算Label高度UITests";
+			productName = "动态计算Label高度UITests";
+			productReference = 786AE70E1F173C980060C971 /* 动态计算Label高度UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		786AE6E21F173C980060C971 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "郭丰锐";
+				TargetAttributes = {
+					786AE6E91F173C980060C971 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					786AE7021F173C980060C971 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 786AE6E91F173C980060C971;
+					};
+					786AE70D1F173C980060C971 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 786AE6E91F173C980060C971;
+					};
+				};
+			};
+			buildConfigurationList = 786AE6E51F173C980060C971 /* Build configuration list for PBXProject "动态计算Label高度" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 786AE6E11F173C980060C971;
+			productRefGroup = 786AE6EB1F173C980060C971 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				786AE6E91F173C980060C971 /* 动态计算Label高度 */,
+				786AE7021F173C980060C971 /* 动态计算Label高度Tests */,
+				786AE70D1F173C980060C971 /* 动态计算Label高度UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		786AE6E81F173C980060C971 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				786AE6FD1F173C980060C971 /* LaunchScreen.storyboard in Resources */,
+				786AE6FA1F173C980060C971 /* Assets.xcassets in Resources */,
+				786AE6F81F173C980060C971 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		786AE7011F173C980060C971 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		786AE70C1F173C980060C971 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		786AE6E61F173C980060C971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				786AE6F51F173C980060C971 /* ViewController.m in Sources */,
+				786AE6F21F173C980060C971 /* AppDelegate.m in Sources */,
+				786AE6EF1F173C980060C971 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		786AE6FF1F173C980060C971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				786AE7081F173C980060C971 /* ____Label__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		786AE70A1F173C980060C971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				786AE7131F173C980060C971 /* ____Label__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		786AE7051F173C980060C971 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 786AE6E91F173C980060C971 /* 动态计算Label高度 */;
+			targetProxy = 786AE7041F173C980060C971 /* PBXContainerItemProxy */;
+		};
+		786AE7101F173C980060C971 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 786AE6E91F173C980060C971 /* 动态计算Label高度 */;
+			targetProxy = 786AE70F1F173C980060C971 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		786AE6F61F173C980060C971 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				786AE6F71F173C980060C971 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		786AE6FB1F173C980060C971 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				786AE6FC1F173C980060C971 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		786AE7151F173C980060C971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		786AE7161F173C980060C971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		786AE7181F173C980060C971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "动态计算Label高度/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "first.----Label--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		786AE7191F173C980060C971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "动态计算Label高度/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "first.----Label--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		786AE71B1F173C980060C971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "动态计算Label高度Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "first.----Label--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/动态计算Label高度.app/动态计算Label高度";
+			};
+			name = Debug;
+		};
+		786AE71C1F173C980060C971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "动态计算Label高度Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "first.----Label--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/动态计算Label高度.app/动态计算Label高度";
+			};
+			name = Release;
+		};
+		786AE71E1F173C980060C971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "动态计算Label高度UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "first.----Label--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "动态计算Label高度";
+			};
+			name = Debug;
+		};
+		786AE71F1F173C980060C971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "动态计算Label高度UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "first.----Label--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "动态计算Label高度";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		786AE6E51F173C980060C971 /* Build configuration list for PBXProject "动态计算Label高度" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				786AE7151F173C980060C971 /* Debug */,
+				786AE7161F173C980060C971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		786AE7171F173C980060C971 /* Build configuration list for PBXNativeTarget "动态计算Label高度" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				786AE7181F173C980060C971 /* Debug */,
+				786AE7191F173C980060C971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		786AE71A1F173C980060C971 /* Build configuration list for PBXNativeTarget "动态计算Label高度Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				786AE71B1F173C980060C971 /* Debug */,
+				786AE71C1F173C980060C971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		786AE71D1F173C980060C971 /* Build configuration list for PBXNativeTarget "动态计算Label高度UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				786AE71E1F173C980060C971 /* Debug */,
+				786AE71F1F173C980060C971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 786AE6E21F173C980060C971 /* Project object */;
+}

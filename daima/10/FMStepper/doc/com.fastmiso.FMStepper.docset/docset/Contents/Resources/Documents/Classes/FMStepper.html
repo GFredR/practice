@@ -1,0 +1,1343 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>FMStepper Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.5 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">FMStepper </a></h1>
+				<a id="developerHome" href="../index.html">Fast Miso Software</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">FMStepper Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/accessibilityTag">&nbsp;&nbsp;&nbsp;&nbsp;accessibilityTag</option>
+	
+	<option value="//api/name/autorepeat">&nbsp;&nbsp;&nbsp;&nbsp;autorepeat</option>
+	
+	<option value="//api/name/autorepeatInterval">&nbsp;&nbsp;&nbsp;&nbsp;autorepeatInterval</option>
+	
+	<option value="//api/name/continuous">&nbsp;&nbsp;&nbsp;&nbsp;continuous</option>
+	
+	<option value="//api/name/maximumValue">&nbsp;&nbsp;&nbsp;&nbsp;maximumValue</option>
+	
+	<option value="//api/name/minimumValue">&nbsp;&nbsp;&nbsp;&nbsp;minimumValue</option>
+	
+	<option value="//api/name/stepValue">&nbsp;&nbsp;&nbsp;&nbsp;stepValue</option>
+	
+	<option value="//api/name/tintColor">&nbsp;&nbsp;&nbsp;&nbsp;tintColor</option>
+	
+	<option value="//api/name/wraps">&nbsp;&nbsp;&nbsp;&nbsp;wraps</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/stepperWithFrame:min:max:step:value:">&nbsp;&nbsp;&nbsp;&nbsp;+ stepperWithFrame:min:max:step:value:</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/setCornerRadius:">&nbsp;&nbsp;&nbsp;&nbsp;- setCornerRadius:</option>
+	
+	<option value="//api/name/setFont:size:">&nbsp;&nbsp;&nbsp;&nbsp;- setFont:size:</option>
+	
+	<option value="//api/name/setValue:">&nbsp;&nbsp;&nbsp;&nbsp;- setValue:</option>
+	
+	<option value="//api/name/value">&nbsp;&nbsp;&nbsp;&nbsp;- value</option>
+	
+	<option value="//api/name/valueObject">&nbsp;&nbsp;&nbsp;&nbsp;- valueObject</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Configuring the Stepper (UIStepper equivalents)">Configuring the Stepper (UIStepper equivalents)</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Configuring the Stepper (non-UIStepper equivalents)">Configuring the Stepper (non-UIStepper equivalents)</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Accessing the Stepper’s Value">Accessing the Stepper’s Value</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Creating a Stepper">Creating a Stepper</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Customizing Appearance">Customizing Appearance</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/accessibilityTag">accessibilityTag</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/autorepeat">autorepeat</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/autorepeatInterval">autorepeatInterval</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/continuous">continuous</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/maximumValue">maximumValue</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/minimumValue">minimumValue</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/stepValue">stepValue</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/tintColor">tintColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/wraps">wraps</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/stepperWithFrame:min:max:step:value:">stepperWithFrame:min:max:step:value:</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setCornerRadius:">setCornerRadius:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setFont:size:">setFont:size:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setValue:">setValue:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/value">value</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/valueObject">valueObject</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="FMStepper Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">FMStepper Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">UIControl</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">FMStepper.h<br />FMStepper.m</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>  The <code>FMStepper</code> control is a nearly one-to-one replacment for <a href="http://developer.apple.com/library/ios/#documentation/UIKit/Reference/UIStepper_Class/Reference/Reference.html">UIStepper</a> with the following differences:</p>
+
+<ul>
+<li>It has a <code>UITextField</code> centered between the stepper buttons
+in order that one can view the current <a href="#//api/name/value">value</a> and modify it using the keyboard.</li>
+<li>The control is easily resized to fit any given frame.</li>
+<li>It requires no <code>set[*]ImageForState:</code> methods for appearance customization.</li>
+</ul>
+
+
+<p>  This control was first inspired by <a href="https://github.com/mperovic/PAStepper">PAStepper</a>
+  and incorporates a ideas (and code) from that project.
+  The <code>FMStepper</code> control differs in at lesat these respects:</p>
+
+<ul>
+<li>It uses a <code>UITextField</code> rather than a <code>UILabel</code> to display the current <a href="#//api/name/value">value</a>.</li>
+<li>It accomodates custom fonts and colors wihtout image assets.</li>
+<li>It is resizable.</li>
+</ul>
+
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						<a title="Configuring the Stepper (UIStepper equivalents)" name="task_Configuring the Stepper (UIStepper equivalents)"></a>
+						<h3 class="subsubtitle task-title">Configuring the Stepper (UIStepper equivalents)</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/tintColor">&nbsp;&nbsp;tintColor</a></code>
+		<span class="tooltip"><p>As in UIStepper: &ldquo;The tint color for the stepper control&hellip;</p>
+
+<pre><code>The value of this property is nil by default."
+(But the `FMStepperButton` has its own default of `UIColor darkGrayColor`.)
+</code></pre></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/minimumValue">&nbsp;&nbsp;minimumValue</a></code>
+		<span class="tooltip"><p>As in UIStepper: &ldquo;The lowest possible numeric <a href="#//api/name/value">value</a> for the stepper&hellip;</p>
+
+<pre><code>Must be numerically less than maximumValue.
+If you attempt to set a value equal to or greater than maximumValue,
+the system raises an `NSInvalidArgumentException` exception.
+The default value for this property is 0."
+</code></pre></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/maximumValue">&nbsp;&nbsp;maximumValue</a></code>
+		<span class="tooltip"><p>As in UIStepper: &ldquo;The highest possible numeric <a href="#//api/name/value">value</a> for the stepper&hellip;</p>
+
+<pre><code>Must be numerically greater than minimumValue.
+If you attempt to set a value equal to or lower than minimumValue,
+the system raises an `NSInvalidArgumentException` exception.
+The default value of this property is 100."
+</code></pre></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/stepValue">&nbsp;&nbsp;stepValue</a></code>
+		<span class="tooltip"><p>As in UIStepper: &ldquo;The step, or increment, <a href="#//api/name/value">value</a> for the stepper&hellip;</p>
+
+<pre><code>Must be numerically greater than 0. If you attempt to set this property’s value
+to 0 or to a negative number, the system raises an NSInvalidArgumentException exception.
+The default value for this property is 1."
+</code></pre>
+
+<p><code>FMStepper</code> adds the additional constraint that stepValue must not exceed the <a href="#//api/name/maximumValue">maximumValue</a>,</p>
+
+<pre><code>raising an NSInvalidArgumentException exception in that case.
+</code></pre></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/continuous">&nbsp;&nbsp;continuous</a></code>
+		<span class="tooltip"><p>As in UIStepper: &ldquo;The continuous vs. noncontinuous state of the stepper&hellip;.</p>
+
+<pre><code>If YES, value change events are sent immediately when the value changes during user interaction.
+If NO, a value change event is sent when user interaction ends.
+The default value for this property is YES."
+</code></pre></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/wraps">&nbsp;&nbsp;wraps</a></code>
+		<span class="tooltip"><p>As in UIStepper: &ldquo;The wrap vs. no-wrap state of the stepper&hellip;</p>
+
+<pre><code>If YES, incrementing beyond maximumValue sets value to minimumValue;
+likewise, decrementing below minimumValue sets value to maximumValue.
+If NO, the stepper does not increment beyond maximumValue nor
+does it decrement below minimumValue but rather holds at those values.
+The default value for this property is NO.
+</code></pre></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/autorepeat">&nbsp;&nbsp;autorepeat</a></code>
+		<span class="tooltip"><p>As in UIStepper: &ldquo;The automatic vs. nonautomatic repeat state of the stepper&hellip;</p>
+
+<pre><code>If YES, the user pressing and holding on the stepper repeatedly alters value.
+The default value for this property is YES."
+</code></pre></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Configuring the Stepper (non-UIStepper equivalents)" name="task_Configuring the Stepper (non-UIStepper equivalents)"></a>
+						<h3 class="subsubtitle task-title">Configuring the Stepper (non-UIStepper equivalents)</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/autorepeatInterval">&nbsp;&nbsp;autorepeatInterval</a></code>
+		<span class="tooltip"><p>The time interval for <a href="#//api/name/autorepeat">autorepeat</a>. The default is 0.35s.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/accessibilityTag">&nbsp;&nbsp;accessibilityTag</a></code>
+		<span class="tooltip"><p>The tag to be used in accessibility descriptions (label, hint, <a href="#//api/name/value">value</a>).</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Accessing the Stepper’s Value" name="task_Accessing the Stepper’s Value"></a>
+						<h3 class="subsubtitle task-title">Accessing the Stepper’s Value</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setValue:">&ndash;&nbsp;setValue:</a></code>
+		<span class="tooltip"><p>Set the current <a href="#//api/name/value">value</a> of the stepper control.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/value">&ndash;&nbsp;value</a></code>
+		<span class="tooltip"><p>Get the current value of the stepper control as a <code>double</code> primitive.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/valueObject">&ndash;&nbsp;valueObject</a></code>
+		<span class="tooltip"><p>Get the current <a href="#//api/name/value">value</a> of the stepper control as an <code>NSNumber</code> object.</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Creating a Stepper" name="task_Creating a Stepper"></a>
+						<h3 class="subsubtitle task-title">Creating a Stepper</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/stepperWithFrame:min:max:step:value:">+&nbsp;stepperWithFrame:min:max:step:value:</a></code>
+		<span class="tooltip"><p>Class method to create an FMStepper.</p>
+
+<pre><code>If frame has zero height and width, then the frame will be set to 79 x 27,
+which is the default frame size for `UIStepper` and `UISwitch`.
+</code></pre></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Customizing Appearance" name="task_Customizing Appearance"></a>
+						<h3 class="subsubtitle task-title">Customizing Appearance</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setFont:size:">&ndash;&nbsp;setFont:size:</a></code>
+		<span class="tooltip"><p>Set the font of the UITextField. Does not affect the size of the labels on the stepper buttons.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setCornerRadius:">&ndash;&nbsp;setCornerRadius:</a></code>
+		<span class="tooltip"><p>Set the cornerRadius of the outer two corners of the two stepper buttons.</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/accessibilityTag" title="accessibilityTag"></a>
+	<h3 class="subsubtitle method-title">accessibilityTag</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The tag to be used in accessibility descriptions (label, hint, <a href="#//api/name/value">value</a>).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (copy, nonatomic) NSString *accessibilityTag</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The tag to be used in accessibility descriptions (label, hint, <a href="#//api/name/value">value</a>).</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">FMStepper.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/autorepeat" title="autorepeat"></a>
+	<h3 class="subsubtitle method-title">autorepeat</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>As in UIStepper: &ldquo;The automatic vs. nonautomatic repeat state of the stepper&hellip;</p>
+
+<pre><code>If YES, the user pressing and holding on the stepper repeatedly alters value.
+The default value for this property is YES."
+</code></pre>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (assign, nonatomic) BOOL autorepeat</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>As in UIStepper: &ldquo;The automatic vs. nonautomatic repeat state of the stepper&hellip;</p>
+
+<pre><code>If YES, the user pressing and holding on the stepper repeatedly alters value.
+The default value for this property is YES."
+</code></pre>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">FMStepper.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/autorepeatInterval" title="autorepeatInterval"></a>
+	<h3 class="subsubtitle method-title">autorepeatInterval</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The time interval for <a href="#//api/name/autorepeat">autorepeat</a>. The default is 0.35s.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (assign, nonatomic) double autorepeatInterval</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The time interval for <a href="#//api/name/autorepeat">autorepeat</a>. The default is 0.35s.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">FMStepper.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/continuous" title="continuous"></a>
+	<h3 class="subsubtitle method-title">continuous</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>As in UIStepper: &ldquo;The continuous vs. noncontinuous state of the stepper&hellip;.</p>
+
+<pre><code>If YES, value change events are sent immediately when the value changes during user interaction.
+If NO, a value change event is sent when user interaction ends.
+The default value for this property is YES."
+</code></pre>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (assign, nonatomic, getter=isContinuous) BOOL continuous</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>As in UIStepper: &ldquo;The continuous vs. noncontinuous state of the stepper&hellip;.</p>
+
+<pre><code>If YES, value change events are sent immediately when the value changes during user interaction.
+If NO, a value change event is sent when user interaction ends.
+The default value for this property is YES."
+</code></pre>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">FMStepper.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/maximumValue" title="maximumValue"></a>
+	<h3 class="subsubtitle method-title">maximumValue</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>As in UIStepper: &ldquo;The highest possible numeric <a href="#//api/name/value">value</a> for the stepper&hellip;</p>
+
+<pre><code>Must be numerically greater than minimumValue.
+If you attempt to set a value equal to or lower than minimumValue,
+the system raises an `NSInvalidArgumentException` exception.
+The default value of this property is 100."
+</code></pre>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (assign, nonatomic) double maximumValue</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>As in UIStepper: &ldquo;The highest possible numeric <a href="#//api/name/value">value</a> for the stepper&hellip;</p>
+
+<pre><code>Must be numerically greater than minimumValue.
+If you attempt to set a value equal to or lower than minimumValue,
+the system raises an `NSInvalidArgumentException` exception.
+The default value of this property is 100."
+</code></pre>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">FMStepper.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/minimumValue" title="minimumValue"></a>
+	<h3 class="subsubtitle method-title">minimumValue</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>As in UIStepper: &ldquo;The lowest possible numeric <a href="#//api/name/value">value</a> for the stepper&hellip;</p>
+
+<pre><code>Must be numerically less than maximumValue.
+If you attempt to set a value equal to or greater than maximumValue,
+the system raises an `NSInvalidArgumentException` exception.
+The default value for this property is 0."
+</code></pre>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (assign, nonatomic) double minimumValue</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>As in UIStepper: &ldquo;The lowest possible numeric <a href="#//api/name/value">value</a> for the stepper&hellip;</p>
+
+<pre><code>Must be numerically less than maximumValue.
+If you attempt to set a value equal to or greater than maximumValue,
+the system raises an `NSInvalidArgumentException` exception.
+The default value for this property is 0."
+</code></pre>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">FMStepper.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/stepValue" title="stepValue"></a>
+	<h3 class="subsubtitle method-title">stepValue</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>As in UIStepper: &ldquo;The step, or increment, <a href="#//api/name/value">value</a> for the stepper&hellip;</p>
+
+<pre><code>Must be numerically greater than 0. If you attempt to set this property’s value
+to 0 or to a negative number, the system raises an NSInvalidArgumentException exception.
+The default value for this property is 1."
+</code></pre>
+
+<p><code>FMStepper</code> adds the additional constraint that stepValue must not exceed the <a href="#//api/name/maximumValue">maximumValue</a>,</p>
+
+<pre><code>raising an NSInvalidArgumentException exception in that case.
+</code></pre>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (assign, nonatomic) double stepValue</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>As in UIStepper: &ldquo;The step, or increment, <a href="#//api/name/value">value</a> for the stepper&hellip;</p>
+
+<pre><code>Must be numerically greater than 0. If you attempt to set this property’s value
+to 0 or to a negative number, the system raises an NSInvalidArgumentException exception.
+The default value for this property is 1."
+</code></pre>
+
+<p><code>FMStepper</code> adds the additional constraint that stepValue must not exceed the <a href="#//api/name/maximumValue">maximumValue</a>,</p>
+
+<pre><code>raising an NSInvalidArgumentException exception in that case.
+</code></pre>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">FMStepper.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/tintColor" title="tintColor"></a>
+	<h3 class="subsubtitle method-title">tintColor</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>As in UIStepper: &ldquo;The tint color for the stepper control&hellip;</p>
+
+<pre><code>The value of this property is nil by default."
+(But the `FMStepperButton` has its own default of `UIColor darkGrayColor`.)
+</code></pre>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (strong, nonatomic) UIColor *tintColor</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>As in UIStepper: &ldquo;The tint color for the stepper control&hellip;</p>
+
+<pre><code>The value of this property is nil by default."
+(But the `FMStepperButton` has its own default of `UIColor darkGrayColor`.)
+</code></pre>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">FMStepper.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/wraps" title="wraps"></a>
+	<h3 class="subsubtitle method-title">wraps</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>As in UIStepper: &ldquo;The wrap vs. no-wrap state of the stepper&hellip;</p>
+
+<pre><code>If YES, incrementing beyond maximumValue sets value to minimumValue;
+likewise, decrementing below minimumValue sets value to maximumValue.
+If NO, the stepper does not increment beyond maximumValue nor
+does it decrement below minimumValue but rather holds at those values.
+The default value for this property is NO.
+</code></pre>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (assign, nonatomic) BOOL wraps</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>As in UIStepper: &ldquo;The wrap vs. no-wrap state of the stepper&hellip;</p>
+
+<pre><code>If YES, incrementing beyond maximumValue sets value to minimumValue;
+likewise, decrementing below minimumValue sets value to maximumValue.
+If NO, the stepper does not increment beyond maximumValue nor
+does it decrement below minimumValue but rather holds at those values.
+The default value for this property is NO.
+</code></pre>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">FMStepper.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/stepperWithFrame:min:max:step:value:" title="stepperWithFrame:min:max:step:value:"></a>
+	<h3 class="subsubtitle method-title">stepperWithFrame:min:max:step:value:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Class method to create an FMStepper.</p>
+
+<pre><code>If frame has zero height and width, then the frame will be set to 79 x 27,
+which is the default frame size for `UIStepper` and `UISwitch`.
+</code></pre>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (FMStepper *)stepperWithFrame:(CGRect)<em>frame</em> min:(CGFloat)<em>min</em> max:(CGFloat)<em>max</em> step:(CGFloat)<em>step</em> value:(CGFloat)<em>value</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>frame</em></dt>
+			<dd><p>If frame has zero height and width, then the frame will be set to 79 x 27, as <code>UIStepper</code>/<code>UISwitch</code>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>min</em></dt>
+			<dd><p>The minimum <a href="#//api/name/value">value</a> the user should be able to set.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>max</em></dt>
+			<dd><p>The maximum <a href="#//api/name/value">value</a> the user should be able to set.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>step</em></dt>
+			<dd><p>The increment, or step <a href="#//api/name/value">value</a>, that the control should use.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>value</em></dt>
+			<dd><p>The initial <a href="#//api/name/value">value</a> for the control.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An FMStepper object, or <code>nil</code> if an error occurred.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Class method to create an FMStepper.</p>
+
+<pre><code>If frame has zero height and width, then the frame will be set to 79 x 27,
+which is the default frame size for `UIStepper` and `UISwitch`.
+</code></pre>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">FMStepper.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/setCornerRadius:" title="setCornerRadius:"></a>
+	<h3 class="subsubtitle method-title">setCornerRadius:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Set the cornerRadius of the outer two corners of the two stepper buttons.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setCornerRadius:(CGFloat)<em>cornerRadius</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>cornerRadius</em></dt>
+			<dd><p>The corner radius.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Set the cornerRadius of the outer two corners of the two stepper buttons.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">FMStepper.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setFont:size:" title="setFont:size:"></a>
+	<h3 class="subsubtitle method-title">setFont:size:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Set the font of the UITextField. Does not affect the size of the labels on the stepper buttons.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setFont:(NSString *)<em>fontName</em> size:(CGFloat)<em>size</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>fontName</em></dt>
+			<dd><p>The name of the font to be used in the <code>UITextField</code> element of the control. If fontName cannot be found (e.g., is not available on the current OS version) then <code>UIFont</code>&rsquo;s <code>boldSystemFontOfSize:</code> will be used.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>size</em></dt>
+			<dd><p>The size of the font to be used.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Set the font of the UITextField. Does not affect the size of the labels on the stepper buttons.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">FMStepper.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setValue:" title="setValue:"></a>
+	<h3 class="subsubtitle method-title">setValue:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Set the current <a href="#//api/name/value">value</a> of the stepper control.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setValue:(double)<em>value</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>value</em></dt>
+			<dd><p>The <a href="#//api/name/value">value</a> for the stepper.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Set the current <a href="#//api/name/value">value</a> of the stepper control.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">FMStepper.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/value" title="value"></a>
+	<h3 class="subsubtitle method-title">value</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get the current value of the stepper control as a <code>double</code> primitive.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (double)value</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The current <code>double</code> value of the control.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Get the current value of the stepper control as a <code>double</code> primitive.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">FMStepper.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/valueObject" title="valueObject"></a>
+	<h3 class="subsubtitle method-title">valueObject</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get the current <a href="#//api/name/value">value</a> of the stepper control as an <code>NSNumber</code> object.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSNumber *)valueObject</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An <code>NSNumber</code> object containing the current <a href="#//api/name/value">value</a> of the control.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Get the current <a href="#//api/name/value">value</a> of the stepper control as an <code>NSNumber</code> object.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">FMStepper.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Fast Miso Software. All rights reserved. (Last updated: 2013-06-14)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.5 (build 789)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

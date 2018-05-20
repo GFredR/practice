@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="11163.2" systemVersion="16A239j" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11133"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Popular_Movies_tvOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1001" height="563"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="j1f-3M-fyA">
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="IIo-9q-qbs">
+                                    <size key="itemSize" width="343" height="535"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MovieCell" id="GGg-dW-hkk" customClass="MovieCell" customModule="Popular_Movies_tvOS" customModuleProvider="target">
+                                        <frame key="frameInset" minY="14" width="343" height="535"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="343" height="535"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y22-xv-Rqz">
+                                                    <frame key="frameInset" minX="17" minY="497" width="308" height="30"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="308" id="XAe-Ga-1M3"/>
+                                                        <constraint firstAttribute="height" constant="30" id="ceH-la-Kxx"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
+                                                    <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loadingMovie" adjustsImageWhenAncestorFocused="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WJy-Tq-JCN">
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="481" id="Wro-fT-BrB"/>
+                                                        <constraint firstAttribute="width" constant="327" id="bsy-qj-2cd"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="WJy-Tq-JCN" firstAttribute="centerX" secondItem="GGg-dW-hkk" secondAttribute="centerX" id="0rt-9h-Xt1"/>
+                                            <constraint firstItem="WJy-Tq-JCN" firstAttribute="top" secondItem="GGg-dW-hkk" secondAttribute="topMargin" id="ANg-p0-P1P"/>
+                                            <constraint firstItem="Y22-xv-Rqz" firstAttribute="top" secondItem="WJy-Tq-JCN" secondAttribute="bottom" constant="8" id="SGU-D5-gu5"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="movieImg" destination="WJy-Tq-JCN" id="7fe-Zu-poJ"/>
+                                            <outlet property="movieLbl" destination="Y22-xv-Rqz" id="egH-mZ-5WW"/>
+                                            <segue destination="gVS-6L-eLO" kind="show" identifier="ShowDetail" id="x9I-jM-74U"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="j1f-3M-fyA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Trv-H0-Wbr"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="j1f-3M-fyA" secondAttribute="bottom" id="Wvf-A3-yDw"/>
+                            <constraint firstItem="j1f-3M-fyA" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="qfm-uy-eMf"/>
+                            <constraint firstAttribute="trailing" secondItem="j1f-3M-fyA" secondAttribute="trailing" id="vWd-d4-4ww"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="1001" height="563"/>
+                    <connections>
+                        <outlet property="collectionView" destination="j1f-3M-fyA" id="cza-AA-I9r"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="565.5" y="239.5"/>
+        </scene>
+        <!--DetailVC-->
+        <scene sceneID="84e-wg-f1H">
+            <objects>
+                <viewController id="gVS-6L-eLO" customClass="DetailVC" customModule="Popular_Movies_tvOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6UP-Je-4bu"/>
+                        <viewControllerLayoutGuide type="bottom" id="TUs-LC-D6R"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cFv-Vc-nXl">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kvM-aU-Nih"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="loadingMovie" translatesAutoresizingMaskIntoConstraints="NO" id="yQK-bX-9g1">
+                                <frame key="frameInset" minX="20" minY="20" width="660" height="860"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1040" id="FaT-Zu-MM6"/>
+                                    <constraint firstAttribute="width" constant="702" id="slt-Ql-5ls"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" translatesAutoresizingMaskIntoConstraints="NO" id="zcO-0f-ogy">
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Inside Out" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Asb-Ui-v8K">
+                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="60"/>
+                                        <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABOUT" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oJI-54-rbI">
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="16"/>
+                                        <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Chz-Mc-aPp">
+                                        <string key="text">In the animal city of Zootopia, a fast-talking fox who's trying to make it big goes on the run when he's framed for a crime he didn't commit. Zootopia's top cop, a self-righteous rabbit, is hot on his tail, but when both become targets of a conspiracy, they're forced to team up and discover even natural enemies can become best friends.</string>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Italic" family="Avenir Next" pointSize="24"/>
+                                        <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="TUs-LC-D6R" firstAttribute="top" secondItem="kvM-aU-Nih" secondAttribute="bottom" id="0is-yF-9RJ"/>
+                            <constraint firstItem="yQK-bX-9g1" firstAttribute="leading" secondItem="cFv-Vc-nXl" secondAttribute="leadingMargin" id="1Gc-pU-1Ec"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="zcO-0f-ogy" secondAttribute="trailing" constant="20" id="9Zk-t3-tek"/>
+                            <constraint firstItem="kvM-aU-Nih" firstAttribute="leading" secondItem="cFv-Vc-nXl" secondAttribute="leading" id="G8j-yV-tWs"/>
+                            <constraint firstItem="yQK-bX-9g1" firstAttribute="centerY" secondItem="cFv-Vc-nXl" secondAttribute="centerY" id="Idk-jE-tzE"/>
+                            <constraint firstItem="TUs-LC-D6R" firstAttribute="top" secondItem="zcO-0f-ogy" secondAttribute="bottom" constant="800" id="IkP-LV-rnG"/>
+                            <constraint firstItem="zcO-0f-ogy" firstAttribute="top" secondItem="6UP-Je-4bu" secondAttribute="bottom" constant="20" id="Ny9-2y-azo"/>
+                            <constraint firstItem="kvM-aU-Nih" firstAttribute="top" secondItem="6UP-Je-4bu" secondAttribute="bottom" id="Qy0-tz-Npt"/>
+                            <constraint firstAttribute="trailing" secondItem="kvM-aU-Nih" secondAttribute="trailing" id="VOj-Gw-Ave"/>
+                            <constraint firstItem="zcO-0f-ogy" firstAttribute="leading" secondItem="yQK-bX-9g1" secondAttribute="trailing" constant="20" id="vak-WH-SBF"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="1920" height="1080"/>
+                    <connections>
+                        <outlet property="blurBackdrop" destination="kvM-aU-Nih" id="xk8-Rm-DwK"/>
+                        <outlet property="movieOverview" destination="Chz-Mc-aPp" id="7AK-Q1-q5Y"/>
+                        <outlet property="moviePoster" destination="yQK-bX-9g1" id="W2K-Y0-XEf"/>
+                        <outlet property="movieTitle" destination="Asb-Ui-v8K" id="Xrb-Z2-Hg1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2pH-co-RnN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-591" y="1614"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="loadingMovie" width="327" height="481"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <nil key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation" orientation="landscapeRight"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF7055EB1B23741300513E81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7055EA1B23741300513E81 /* main.m */; };
+		AF7055EE1B23741300513E81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7055ED1B23741300513E81 /* AppDelegate.m */; };
+		AF7055F11B23741300513E81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7055F01B23741300513E81 /* ViewController.m */; };
+		AF7055F41B23741300513E81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF7055F21B23741300513E81 /* Main.storyboard */; };
+		AF7055F61B23741300513E81 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF7055F51B23741300513E81 /* Images.xcassets */; };
+		AF7055F91B23741300513E81 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF7055F71B23741300513E81 /* LaunchScreen.xib */; };
+		AF7056051B23741300513E81 /* W6___Bahamas_AnimationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7056041B23741300513E81 /* W6___Bahamas_AnimationsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF7055FF1B23741300513E81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF7055DD1B23741300513E81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF7055E41B23741300513E81;
+			remoteInfo = "W6 - Bahamas Animations";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF7055E51B23741300513E81 /* W6 - Bahamas Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "W6 - Bahamas Animations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF7055E91B23741300513E81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF7055EA1B23741300513E81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF7055EC1B23741300513E81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF7055ED1B23741300513E81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AF7055EF1B23741300513E81 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AF7055F01B23741300513E81 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AF7055F31B23741300513E81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF7055F51B23741300513E81 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AF7055F81B23741300513E81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AF7055FE1B23741300513E81 /* W6 - Bahamas AnimationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "W6 - Bahamas AnimationsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF7056031B23741300513E81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF7056041B23741300513E81 /* W6___Bahamas_AnimationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "W6___Bahamas_AnimationsTests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF7055E21B23741300513E81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7055FB1B23741300513E81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF7055DC1B23741300513E81 = {
+			isa = PBXGroup;
+			children = (
+				AF7055E71B23741300513E81 /* W6 - Bahamas Animations */,
+				AF7056011B23741300513E81 /* W6 - Bahamas AnimationsTests */,
+				AF7055E61B23741300513E81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF7055E61B23741300513E81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF7055E51B23741300513E81 /* W6 - Bahamas Animations.app */,
+				AF7055FE1B23741300513E81 /* W6 - Bahamas AnimationsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF7055E71B23741300513E81 /* W6 - Bahamas Animations */ = {
+			isa = PBXGroup;
+			children = (
+				AF7055EC1B23741300513E81 /* AppDelegate.h */,
+				AF7055ED1B23741300513E81 /* AppDelegate.m */,
+				AF7055EF1B23741300513E81 /* ViewController.h */,
+				AF7055F01B23741300513E81 /* ViewController.m */,
+				AF7055F21B23741300513E81 /* Main.storyboard */,
+				AF7055F51B23741300513E81 /* Images.xcassets */,
+				AF7055F71B23741300513E81 /* LaunchScreen.xib */,
+				AF7055E81B23741300513E81 /* Supporting Files */,
+			);
+			path = "W6 - Bahamas Animations";
+			sourceTree = "<group>";
+		};
+		AF7055E81B23741300513E81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF7055E91B23741300513E81 /* Info.plist */,
+				AF7055EA1B23741300513E81 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF7056011B23741300513E81 /* W6 - Bahamas AnimationsTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF7056041B23741300513E81 /* W6___Bahamas_AnimationsTests.m */,
+				AF7056021B23741300513E81 /* Supporting Files */,
+			);
+			path = "W6 - Bahamas AnimationsTests";
+			sourceTree = "<group>";
+		};
+		AF7056021B23741300513E81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF7056031B23741300513E81 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF7055E41B23741300513E81 /* W6 - Bahamas Animations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF7056081B23741300513E81 /* Build configuration list for PBXNativeTarget "W6 - Bahamas Animations" */;
+			buildPhases = (
+				AF7055E11B23741300513E81 /* Sources */,
+				AF7055E21B23741300513E81 /* Frameworks */,
+				AF7055E31B23741300513E81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "W6 - Bahamas Animations";
+			productName = "W6 - Bahamas Animations";
+			productReference = AF7055E51B23741300513E81 /* W6 - Bahamas Animations.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF7055FD1B23741300513E81 /* W6 - Bahamas AnimationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF70560B1B23741300513E81 /* Build configuration list for PBXNativeTarget "W6 - Bahamas AnimationsTests" */;
+			buildPhases = (
+				AF7055FA1B23741300513E81 /* Sources */,
+				AF7055FB1B23741300513E81 /* Frameworks */,
+				AF7055FC1B23741300513E81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF7056001B23741300513E81 /* PBXTargetDependency */,
+			);
+			name = "W6 - Bahamas AnimationsTests";
+			productName = "W6 - Bahamas AnimationsTests";
+			productReference = AF7055FE1B23741300513E81 /* W6 - Bahamas AnimationsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF7055DD1B23741300513E81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = ca.lighthouselabs;
+				TargetAttributes = {
+					AF7055E41B23741300513E81 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 4FA6W7YQGP;
+						DevelopmentTeamName = "guan jing (Personal Team)";
+					};
+					AF7055FD1B23741300513E81 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = AF7055E41B23741300513E81;
+					};
+				};
+			};
+			buildConfigurationList = AF7055E01B23741300513E81 /* Build configuration list for PBXProject "W6 - Bahamas Animations" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF7055DC1B23741300513E81;
+			productRefGroup = AF7055E61B23741300513E81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF7055E41B23741300513E81 /* W6 - Bahamas Animations */,
+				AF7055FD1B23741300513E81 /* W6 - Bahamas AnimationsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF7055E31B23741300513E81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7055F41B23741300513E81 /* Main.storyboard in Resources */,
+				AF7055F91B23741300513E81 /* LaunchScreen.xib in Resources */,
+				AF7055F61B23741300513E81 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7055FC1B23741300513E81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF7055E11B23741300513E81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7055F11B23741300513E81 /* ViewController.m in Sources */,
+				AF7055EE1B23741300513E81 /* AppDelegate.m in Sources */,
+				AF7055EB1B23741300513E81 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7055FA1B23741300513E81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7056051B23741300513E81 /* W6___Bahamas_AnimationsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF7056001B23741300513E81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF7055E41B23741300513E81 /* W6 - Bahamas Animations */;
+			targetProxy = AF7055FF1B23741300513E81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF7055F21B23741300513E81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF7055F31B23741300513E81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF7055F71B23741300513E81 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF7055F81B23741300513E81 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF7056061B23741300513E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AF7056071B23741300513E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF7056091B23741300513E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "W6 - Bahamas Animations/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.lighthouselabs.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AF70560A1B23741300513E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "W6 - Bahamas Animations/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.lighthouselabs.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AF70560C1B23741300513E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "W6 - Bahamas AnimationsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.lighthouselabs.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/W6 - Bahamas Animations.app/W6 - Bahamas Animations";
+			};
+			name = Debug;
+		};
+		AF70560D1B23741300513E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "W6 - Bahamas AnimationsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.lighthouselabs.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/W6 - Bahamas Animations.app/W6 - Bahamas Animations";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF7055E01B23741300513E81 /* Build configuration list for PBXProject "W6 - Bahamas Animations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7056061B23741300513E81 /* Debug */,
+				AF7056071B23741300513E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF7056081B23741300513E81 /* Build configuration list for PBXNativeTarget "W6 - Bahamas Animations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7056091B23741300513E81 /* Debug */,
+				AF70560A1B23741300513E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF70560B1B23741300513E81 /* Build configuration list for PBXNativeTarget "W6 - Bahamas AnimationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF70560C1B23741300513E81 /* Debug */,
+				AF70560D1B23741300513E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF7055DD1B23741300513E81 /* Project object */;
+}

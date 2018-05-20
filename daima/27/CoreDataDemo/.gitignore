@@ -1,0 +1,10 @@
+
+*.xcworkspacedata
+
+*.xcuserstate
+
+*.xcscheme
+
+*.xcbkptlist
+
+CoreDataDemo.xcodeproj/xcuserdata/yangyihui.xcuserdatad/xcschemes/xcschememanagement.plist

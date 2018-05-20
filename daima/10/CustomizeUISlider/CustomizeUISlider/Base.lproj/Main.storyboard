@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11129.15" systemVersion="16A201w" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Del-Db-jLK">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11103.10"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="62i-cf-VU7">
+            <objects>
+                <viewController id="Del-Db-jLK" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1E4-Jl-0jl"/>
+                        <viewControllerLayoutGuide type="bottom" id="xMB-sc-knE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RAN-ph-2QA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="pdU-gE-sIm">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="TMX-Hz-y7O"/>
+                                </constraints>
+                            </slider>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VUP-KE-vqd">
+                                <frame key="frameInset" minX="63" minY="235" width="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="1" id="8c6-F5-1fL"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="8c6-F5-1fL"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KcO-AP-AgZ">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="pdU-gE-sIm" firstAttribute="leading" secondItem="RAN-ph-2QA" secondAttribute="leadingMargin" constant="30" id="4Zo-it-a2p"/>
+                            <constraint firstItem="pdU-gE-sIm" firstAttribute="width" secondItem="VUP-KE-vqd" secondAttribute="width" id="4e9-gU-M5S"/>
+                            <constraint firstItem="VUP-KE-vqd" firstAttribute="width" secondItem="pdU-gE-sIm" secondAttribute="width" id="7Lb-HP-SDh"/>
+                            <constraint firstItem="VUP-KE-vqd" firstAttribute="centerX" secondItem="pdU-gE-sIm" secondAttribute="centerX" id="7nJ-hz-5ZZ"/>
+                            <constraint firstItem="pdU-gE-sIm" firstAttribute="leading" secondItem="RAN-ph-2QA" secondAttribute="leadingMargin" constant="15" id="8Pf-5z-4uh"/>
+                            <constraint firstItem="pdU-gE-sIm" firstAttribute="top" secondItem="1E4-Jl-0jl" secondAttribute="bottom" constant="227" id="CTb-f6-WGf"/>
+                            <constraint firstItem="pdU-gE-sIm" firstAttribute="width" secondItem="RAN-ph-2QA" secondAttribute="width" constant="-50" id="Cyz-xo-ejM"/>
+                            <constraint firstItem="VUP-KE-vqd" firstAttribute="centerY" secondItem="pdU-gE-sIm" secondAttribute="centerY" id="EMI-GZ-ZxS"/>
+                            <constraint firstItem="pdU-gE-sIm" firstAttribute="trailing" secondItem="RAN-ph-2QA" secondAttribute="trailingMargin" constant="30" id="EMf-7e-jBH"/>
+                            <constraint firstAttribute="centerX" secondItem="pdU-gE-sIm" secondAttribute="centerX" id="F2Z-qj-fp1"/>
+                            <constraint firstItem="pdU-gE-sIm" firstAttribute="centerX" secondItem="RAN-ph-2QA" secondAttribute="centerXWithinMargins" id="Gnj-vj-sOh"/>
+                            <constraint firstItem="KcO-AP-AgZ" firstAttribute="centerX" secondItem="pdU-gE-sIm" secondAttribute="centerX" id="UhS-Ps-WMl"/>
+                            <constraint firstItem="VUP-KE-vqd" firstAttribute="height" secondItem="pdU-gE-sIm" secondAttribute="height" constant="-10" id="Ulk-CM-2pl"/>
+                            <constraint firstItem="VUP-KE-vqd" firstAttribute="centerY" secondItem="pdU-gE-sIm" secondAttribute="centerY" id="aL1-MV-0dV"/>
+                            <constraint firstItem="pdU-gE-sIm" firstAttribute="top" secondItem="1E4-Jl-0jl" secondAttribute="bottom" constant="200" id="da4-mP-hv3"/>
+                            <constraint firstItem="VUP-KE-vqd" firstAttribute="centerX" secondItem="pdU-gE-sIm" secondAttribute="centerX" id="f0Q-ju-WTV"/>
+                            <constraint firstItem="KcO-AP-AgZ" firstAttribute="top" secondItem="pdU-gE-sIm" secondAttribute="bottom" constant="50" id="gBD-d5-R0h"/>
+                            <constraint firstItem="VUP-KE-vqd" firstAttribute="top" secondItem="pdU-gE-sIm" secondAttribute="top" id="nYJ-B6-Cx9"/>
+                            <constraint firstItem="VUP-KE-vqd" firstAttribute="centerY" secondItem="pdU-gE-sIm" secondAttribute="centerY" id="tKH-zw-zwW"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="4Zo-it-a2p"/>
+                                <exclude reference="8Pf-5z-4uh"/>
+                                <exclude reference="CTb-f6-WGf"/>
+                                <exclude reference="Cyz-xo-ejM"/>
+                                <exclude reference="EMf-7e-jBH"/>
+                                <exclude reference="Gnj-vj-sOh"/>
+                                <exclude reference="7Lb-HP-SDh"/>
+                                <exclude reference="7nJ-hz-5ZZ"/>
+                                <exclude reference="Ulk-CM-2pl"/>
+                                <exclude reference="aL1-MV-0dV"/>
+                                <exclude reference="nYJ-B6-Cx9"/>
+                                <exclude reference="tKH-zw-zwW"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="slider" destination="pdU-gE-sIm" id="Y9S-Nw-D7u"/>
+                        <outlet property="sliderBackgroundImageView" destination="VUP-KE-vqd" id="wUh-F3-jYv"/>
+                        <outlet property="valueLabel" destination="KcO-AP-AgZ" id="I00-mw-YBy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iSg-wu-RiV" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="346" y="349"/>
+        </scene>
+    </scenes>
+</document>

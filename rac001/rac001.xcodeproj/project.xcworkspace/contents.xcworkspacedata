@@ -1,0 +1,1238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:../Pods"
+      name = "Pods">
+      <FileRef
+         location = "group:Pods.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:Target Support Files"
+         name = "Target Support Files">
+         <Group
+            location = "group:ReactiveObjC"
+            name = "ReactiveObjC">
+            <FileRef
+               location = "group:ReactiveObjC.xcconfig">
+            </FileRef>
+            <FileRef
+               location = "group:ReactiveObjC-dummy.m">
+            </FileRef>
+            <FileRef
+               location = "group:ReactiveObjC-prefix.pch">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Pods-RAC101"
+            name = "Pods-RAC101">
+            <FileRef
+               location = "group:Pods-RAC101.release.xcconfig">
+            </FileRef>
+            <FileRef
+               location = "group:Pods-RAC101-acknowledgements.plist">
+            </FileRef>
+            <FileRef
+               location = "group:Pods-RAC101-dummy.m">
+            </FileRef>
+            <FileRef
+               location = "group:Pods-RAC101-resources.sh">
+            </FileRef>
+            <FileRef
+               location = "group:Pods-RAC101-acknowledgements.markdown">
+            </FileRef>
+            <FileRef
+               location = "group:Pods-RAC101-frameworks.sh">
+            </FileRef>
+            <FileRef
+               location = "group:Pods-RAC101.debug.xcconfig">
+            </FileRef>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:Manifest.lock">
+      </FileRef>
+      <Group
+         location = "group:Local Podspecs"
+         name = "Local Podspecs">
+      </Group>
+      <Group
+         location = "group:ReactiveObjC"
+         name = "ReactiveObjC">
+         <FileRef
+            location = "group:LICENSE.md">
+         </FileRef>
+         <Group
+            location = "group:ReactiveObjC"
+            name = "ReactiveObjC">
+            <FileRef
+               location = "group:NSFileHandle+RACSupport.m">
+            </FileRef>
+            <FileRef
+               location = "group:NSString+RACSequenceAdditions.h">
+            </FileRef>
+            <FileRef
+               location = "group:NSDictionary+RACSequenceAdditions.h">
+            </FileRef>
+            <FileRef
+               location = "group:NSNotificationCenter+RACSupport.m">
+            </FileRef>
+            <FileRef
+               location = "group:UITextField+RACSignalSupport.h">
+            </FileRef>
+            <FileRef
+               location = "group:UIStepper+RACSignalSupport.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACSubscriptionScheduler.m">
+            </FileRef>
+            <FileRef
+               location = "group:UISegmentedControl+RACSignalSupport.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACStringSequence.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACKVOProxy.h">
+            </FileRef>
+            <FileRef
+               location = "group:NSObject+RACDescription.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACQueueScheduler.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACScheduler.m">
+            </FileRef>
+            <FileRef
+               location = "group:UITableViewHeaderFooterView+RACSignalSupport.m">
+            </FileRef>
+            <FileRef
+               location = "group:NSArray+RACSequenceAdditions.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACSignal.m">
+            </FileRef>
+            <FileRef
+               location = "group:UITableViewCell+RACSignalSupport.m">
+            </FileRef>
+            <FileRef
+               location = "group:UISwitch+RACSignalSupport.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACTargetQueueScheduler.m">
+            </FileRef>
+            <FileRef
+               location = "group:NSUserDefaults+RACSupport.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACPassthroughSubscriber.h">
+            </FileRef>
+            <FileRef
+               location = "group:NSEnumerator+RACSequenceAdditions.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACIndexSetSequence.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACScopedDisposable.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACDynamicSignal.h">
+            </FileRef>
+            <FileRef
+               location = "group:UITextView+RACSignalSupport.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACStream.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACSignal+Operations.m">
+            </FileRef>
+            <FileRef
+               location = "group:UISlider+RACSignalSupport.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACReturnSignal.h">
+            </FileRef>
+            <FileRef
+               location = "group:UIRefreshControl+RACCommandSupport.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACTestScheduler.h">
+            </FileRef>
+            <FileRef
+               location = "group:NSSet+RACSequenceAdditions.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACGroupedSignal.m">
+            </FileRef>
+            <FileRef
+               location = "group:NSInvocation+RACTypeParsing.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACTupleSequence.m">
+            </FileRef>
+            <FileRef
+               location = "group:MKAnnotationView+RACSignalSupport.m">
+            </FileRef>
+            <Group
+               location = "group:extobjc"
+               name = "extobjc">
+               <FileRef
+                  location = "group:RACEXTRuntimeExtensions.m">
+               </FileRef>
+               <FileRef
+                  location = "group:RACEXTScope.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACmetamacros.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACEXTRuntimeExtensions.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACEXTKeyPathCoding.h">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:RACChannel.m">
+            </FileRef>
+            <FileRef
+               location = "group:UIGestureRecognizer+RACSignalSupport.h">
+            </FileRef>
+            <FileRef
+               location = "group:UIAlertView+RACSignalSupport.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACValueTransformer.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACSubscriber+Private.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACSignalSequence.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACUnit.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACCompoundDisposable.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACEagerSequence.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACUnarySequence.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACEmptySequence.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACDelegateProxy.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACDynamicSequence.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACSubscriber.h">
+            </FileRef>
+            <FileRef
+               location = "group:NSObject+RACSelectorSignal.h">
+            </FileRef>
+            <FileRef
+               location = "group:NSObject+RACKVOWrapper.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACSequence.m">
+            </FileRef>
+            <FileRef
+               location = "group:NSString+RACSupport.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACSubject.h">
+            </FileRef>
+            <FileRef
+               location = "group:NSObject+RACLifting.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACCompoundDisposableProvider.d">
+            </FileRef>
+            <FileRef
+               location = "group:RACSerialDisposable.h">
+            </FileRef>
+            <FileRef
+               location = "group:NSURLConnection+RACSupport.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACKVOTrampoline.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACSubscriptingAssignmentTrampoline.m">
+            </FileRef>
+            <FileRef
+               location = "group:NSOrderedSet+RACSequenceAdditions.m">
+            </FileRef>
+            <FileRef
+               location = "group:UIActionSheet+RACSignalSupport.h">
+            </FileRef>
+            <FileRef
+               location = "group:UIButton+RACCommandSupport.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACScheduler+Subclass.h">
+            </FileRef>
+            <FileRef
+               location = "group:UIImagePickerController+RACSignalSupport.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACDisposable.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACReplaySubject.m">
+            </FileRef>
+            <FileRef
+               location = "group:UIControl+RACSignalSupportPrivate.m">
+            </FileRef>
+            <FileRef
+               location = "group:NSObject+RACDeallocating.m">
+            </FileRef>
+            <FileRef
+               location = "group:NSString+RACKeyPathUtilities.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACErrorSignal.m">
+            </FileRef>
+            <FileRef
+               location = "group:UIControl+RACSignalSupport.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACArraySequence.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACBlockTrampoline.m">
+            </FileRef>
+            <FileRef
+               location = "group:NSIndexSet+RACSequenceAdditions.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACKVOChannel.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACTuple.h">
+            </FileRef>
+            <FileRef
+               location = "group:NSObject+RACPropertySubscribing.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACImmediateScheduler.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACBehaviorSubject.m">
+            </FileRef>
+            <FileRef
+               location = "group:NSData+RACSupport.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACMulticastConnection.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACMulticastConnection+Private.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACEmptySignal.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACSignalProvider.d">
+            </FileRef>
+            <FileRef
+               location = "group:UIBarButtonItem+RACCommandSupport.m">
+            </FileRef>
+            <FileRef
+               location = "group:UICollectionReusableView+RACSignalSupport.m">
+            </FileRef>
+            <FileRef
+               location = "group:UIDatePicker+RACSignalSupport.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACCommand.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACEvent.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACScopedDisposable.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACDynamicSignal.m">
+            </FileRef>
+            <FileRef
+               location = "group:NSEnumerator+RACSequenceAdditions.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACIndexSetSequence.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACPassthroughSubscriber.m">
+            </FileRef>
+            <FileRef
+               location = "group:NSUserDefaults+RACSupport.h">
+            </FileRef>
+            <FileRef
+               location = "group:UITableViewCell+RACSignalSupport.h">
+            </FileRef>
+            <FileRef
+               location = "group:ReactiveObjC.h">
+            </FileRef>
+            <FileRef
+               location = "group:UISwitch+RACSignalSupport.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACTargetQueueScheduler.h">
+            </FileRef>
+            <FileRef
+               location = "group:NSArray+RACSequenceAdditions.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACSignal.h">
+            </FileRef>
+            <FileRef
+               location = "group:UITableViewHeaderFooterView+RACSignalSupport.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACScheduler.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACQueueScheduler.m">
+            </FileRef>
+            <FileRef
+               location = "group:NSObject+RACDescription.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACKVOProxy.m">
+            </FileRef>
+            <FileRef
+               location = "group:UISegmentedControl+RACSignalSupport.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACStringSequence.h">
+            </FileRef>
+            <FileRef
+               location = "group:UIStepper+RACSignalSupport.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACSubscriptionScheduler.h">
+            </FileRef>
+            <FileRef
+               location = "group:NSDictionary+RACSequenceAdditions.m">
+            </FileRef>
+            <FileRef
+               location = "group:NSNotificationCenter+RACSupport.h">
+            </FileRef>
+            <FileRef
+               location = "group:UITextField+RACSignalSupport.m">
+            </FileRef>
+            <FileRef
+               location = "group:NSFileHandle+RACSupport.h">
+            </FileRef>
+            <FileRef
+               location = "group:NSString+RACSequenceAdditions.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACAnnotations.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACScheduler+Private.h">
+            </FileRef>
+            <FileRef
+               location = "group:UIAlertView+RACSignalSupport.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACValueTransformer.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACChannel.h">
+            </FileRef>
+            <FileRef
+               location = "group:UIGestureRecognizer+RACSignalSupport.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACTupleSequence.h">
+            </FileRef>
+            <FileRef
+               location = "group:MKAnnotationView+RACSignalSupport.h">
+            </FileRef>
+            <FileRef
+               location = "group:NSInvocation+RACTypeParsing.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACGroupedSignal.h">
+            </FileRef>
+            <FileRef
+               location = "group:NSSet+RACSequenceAdditions.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACTestScheduler.m">
+            </FileRef>
+            <FileRef
+               location = "group:UIRefreshControl+RACCommandSupport.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACReturnSignal.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACStream.h">
+            </FileRef>
+            <FileRef
+               location = "group:UITextView+RACSignalSupport.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACSignal+Operations.h">
+            </FileRef>
+            <FileRef
+               location = "group:UISlider+RACSignalSupport.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACErrorSignal.h">
+            </FileRef>
+            <FileRef
+               location = "group:UIControl+RACSignalSupport.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACArraySequence.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACBlockTrampoline.h">
+            </FileRef>
+            <FileRef
+               location = "group:NSString+RACKeyPathUtilities.m">
+            </FileRef>
+            <FileRef
+               location = "group:NSObject+RACDeallocating.h">
+            </FileRef>
+            <FileRef
+               location = "group:UIControl+RACSignalSupportPrivate.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACReplaySubject.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACDisposable.m">
+            </FileRef>
+            <FileRef
+               location = "group:UIButton+RACCommandSupport.m">
+            </FileRef>
+            <FileRef
+               location = "group:UIImagePickerController+RACSignalSupport.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACQueueScheduler+Subclass.h">
+            </FileRef>
+            <FileRef
+               location = "group:NSOrderedSet+RACSequenceAdditions.h">
+            </FileRef>
+            <FileRef
+               location = "group:UIActionSheet+RACSignalSupport.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACSerialDisposable.m">
+            </FileRef>
+            <FileRef
+               location = "group:NSURLConnection+RACSupport.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACKVOTrampoline.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACSubscriptingAssignmentTrampoline.h">
+            </FileRef>
+            <FileRef
+               location = "group:NSString+RACSupport.h">
+            </FileRef>
+            <FileRef
+               location = "group:NSObject+RACLifting.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACSubject.m">
+            </FileRef>
+            <FileRef
+               location = "group:NSObject+RACKVOWrapper.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACSequence.h">
+            </FileRef>
+            <FileRef
+               location = "group:NSObject+RACSelectorSignal.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACSubscriber.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACDynamicSequence.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACDelegateProxy.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACEmptySequence.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACUnarySequence.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACEagerSequence.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACUnit.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACSignalSequence.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACCompoundDisposable.m">
+            </FileRef>
+            <FileRef
+               location = "group:UIDatePicker+RACSignalSupport.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACCommand.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACEvent.h">
+            </FileRef>
+            <FileRef
+               location = "group:UICollectionReusableView+RACSignalSupport.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACEmptySignal.m">
+            </FileRef>
+            <FileRef
+               location = "group:UIBarButtonItem+RACCommandSupport.h">
+            </FileRef>
+            <FileRef
+               location = "group:NSData+RACSupport.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACMulticastConnection.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACImmediateScheduler.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACBehaviorSubject.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACStream+Private.h">
+            </FileRef>
+            <FileRef
+               location = "group:NSObject+RACPropertySubscribing.h">
+            </FileRef>
+            <FileRef
+               location = "group:RACTuple.m">
+            </FileRef>
+            <FileRef
+               location = "group:RACKVOChannel.h">
+            </FileRef>
+            <FileRef
+               location = "group:NSIndexSet+RACSequenceAdditions.m">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Headers"
+         name = "Headers">
+         <Group
+            location = "group:Public"
+            name = "Public">
+            <Group
+               location = "group:ReactiveObjC"
+               name = "ReactiveObjC">
+               <FileRef
+                  location = "group:NSString+RACSequenceAdditions.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSDictionary+RACSequenceAdditions.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UITextField+RACSignalSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UISegmentedControl+RACSignalSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACKVOProxy.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACQueueScheduler.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSArray+RACSequenceAdditions.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACPassthroughSubscriber.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACScopedDisposable.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACDynamicSignal.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UISlider+RACSignalSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACReturnSignal.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIRefreshControl+RACCommandSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACTestScheduler.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSSet+RACSequenceAdditions.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSInvocation+RACTypeParsing.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIGestureRecognizer+RACSignalSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIAlertView+RACSignalSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACValueTransformer.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACUnit.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACCompoundDisposable.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACEagerSequence.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACDelegateProxy.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACSubscriber.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSObject+RACSelectorSignal.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSObject+RACKVOWrapper.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACSubject.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSObject+RACLifting.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACSerialDisposable.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIActionSheet+RACSignalSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIButton+RACCommandSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACScheduler+Subclass.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACDisposable.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSString+RACKeyPathUtilities.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIControl+RACSignalSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSIndexSet+RACSequenceAdditions.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACTuple.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACImmediateScheduler.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACCommand.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSEnumerator+RACSequenceAdditions.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACIndexSetSequence.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSUserDefaults+RACSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UITableViewCell+RACSignalSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ReactiveObjC.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UISwitch+RACSignalSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACTargetQueueScheduler.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACSignal.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UITableViewHeaderFooterView+RACSignalSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACScheduler.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSObject+RACDescription.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACStringSequence.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACEXTScope.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIStepper+RACSignalSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACSubscriptionScheduler.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSNotificationCenter+RACSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSFileHandle+RACSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACAnnotations.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACChannel.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACTupleSequence.h">
+               </FileRef>
+               <FileRef
+                  location = "group:MKAnnotationView+RACSignalSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACGroupedSignal.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACmetamacros.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACStream.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UITextView+RACSignalSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACSignal+Operations.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACErrorSignal.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACArraySequence.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACBlockTrampoline.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACEXTKeyPathCoding.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSObject+RACDeallocating.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACReplaySubject.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIImagePickerController+RACSignalSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACQueueScheduler+Subclass.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSOrderedSet+RACSequenceAdditions.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSURLConnection+RACSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACKVOTrampoline.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACSubscriptingAssignmentTrampoline.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSString+RACSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACSequence.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACDynamicSequence.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACUnarySequence.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACSignalSequence.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIDatePicker+RACSignalSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACEvent.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UICollectionReusableView+RACSignalSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIBarButtonItem+RACCommandSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSData+RACSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACMulticastConnection.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACBehaviorSubject.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSObject+RACPropertySubscribing.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACKVOChannel.h">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Private"
+            name = "Private">
+            <Group
+               location = "group:ReactiveObjC"
+               name = "ReactiveObjC">
+               <FileRef
+                  location = "group:NSString+RACSequenceAdditions.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSDictionary+RACSequenceAdditions.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UITextField+RACSignalSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UISegmentedControl+RACSignalSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACKVOProxy.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACQueueScheduler.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSArray+RACSequenceAdditions.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACPassthroughSubscriber.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACScopedDisposable.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACDynamicSignal.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UISlider+RACSignalSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACReturnSignal.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIRefreshControl+RACCommandSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACTestScheduler.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSSet+RACSequenceAdditions.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSInvocation+RACTypeParsing.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIGestureRecognizer+RACSignalSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIAlertView+RACSignalSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACValueTransformer.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACSubscriber+Private.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACUnit.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACCompoundDisposable.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACEagerSequence.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACDelegateProxy.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACSubscriber.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSObject+RACSelectorSignal.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSObject+RACKVOWrapper.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACSubject.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSObject+RACLifting.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACSerialDisposable.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIActionSheet+RACSignalSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIButton+RACCommandSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACScheduler+Subclass.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACDisposable.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSString+RACKeyPathUtilities.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIControl+RACSignalSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSIndexSet+RACSequenceAdditions.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACTuple.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACImmediateScheduler.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACMulticastConnection+Private.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACEmptySignal.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACCommand.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSEnumerator+RACSequenceAdditions.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACIndexSetSequence.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSUserDefaults+RACSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UITableViewCell+RACSignalSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ReactiveObjC.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UISwitch+RACSignalSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACTargetQueueScheduler.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACSignal.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UITableViewHeaderFooterView+RACSignalSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACScheduler.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSObject+RACDescription.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACStringSequence.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACEXTScope.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIStepper+RACSignalSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACSubscriptionScheduler.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSNotificationCenter+RACSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSFileHandle+RACSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACAnnotations.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACScheduler+Private.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACChannel.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACTupleSequence.h">
+               </FileRef>
+               <FileRef
+                  location = "group:MKAnnotationView+RACSignalSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACGroupedSignal.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACmetamacros.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACEXTRuntimeExtensions.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACStream.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UITextView+RACSignalSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACSignal+Operations.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACErrorSignal.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACArraySequence.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACBlockTrampoline.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACEXTKeyPathCoding.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSObject+RACDeallocating.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIControl+RACSignalSupportPrivate.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACReplaySubject.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIImagePickerController+RACSignalSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACQueueScheduler+Subclass.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSOrderedSet+RACSequenceAdditions.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSURLConnection+RACSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACKVOTrampoline.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACSubscriptingAssignmentTrampoline.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSString+RACSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACSequence.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACDynamicSequence.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACEmptySequence.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACUnarySequence.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACSignalSequence.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIDatePicker+RACSignalSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACEvent.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UICollectionReusableView+RACSignalSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIBarButtonItem+RACCommandSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSData+RACSupport.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACMulticastConnection.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACBehaviorSubject.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACStream+Private.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSObject+RACPropertySubscribing.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RACKVOChannel.h">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+   </Group>
+   <FileRef
+      location = "self:rac001.xcodeproj">
+   </FileRef>
+</Workspace>

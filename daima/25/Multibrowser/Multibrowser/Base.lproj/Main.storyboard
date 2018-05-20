@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11163.2" systemVersion="16A239j" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Uoa-d8-t33">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11133"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Multibrowser" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="McS-Lb-g8d">
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="WJv-cn-TdF"/>
+                                </connections>
+                            </textField>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Zfb-56-w1a"/>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Zfb-56-w1a" firstAttribute="top" secondItem="McS-Lb-g8d" secondAttribute="bottom" constant="5" id="AiH-9z-Mwb"/>
+                            <constraint firstItem="McS-Lb-g8d" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="5" id="Du5-Wq-3zA"/>
+                            <constraint firstItem="McS-Lb-g8d" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="48" id="Fh4-cB-oqU"/>
+                            <constraint firstAttribute="trailing" secondItem="McS-Lb-g8d" secondAttribute="trailing" constant="5" id="VUP-TY-tHg"/>
+                            <constraint firstItem="Zfb-56-w1a" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="fmW-Ed-pIb"/>
+                            <constraint firstAttribute="trailing" secondItem="Zfb-56-w1a" secondAttribute="trailing" id="ux3-Rw-JSk"/>
+                            <constraint firstItem="Zfb-56-w1a" firstAttribute="top" secondItem="McS-Lb-g8d" secondAttribute="bottom" constant="5" id="vUW-7a-IpE"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Zfb-56-w1a" secondAttribute="bottom" id="yRG-aL-BeO"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="23o-KT-4Pb"/>
+                    <connections>
+                        <outlet property="addressBar" destination="McS-Lb-g8d" id="Dkq-uW-L8y"/>
+                        <outlet property="stackView" destination="Zfb-56-w1a" id="vlN-mg-NDX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="175" y="350"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="8dv-Mz-TeK">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Uoa-d8-t33" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="l5D-FS-hn2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Acw-KF-W6E"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2hn-Bc-fvM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-561" y="367"/>
+        </scene>
+    </scenes>
+</document>

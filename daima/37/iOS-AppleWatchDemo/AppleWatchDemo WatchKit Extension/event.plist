@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <array>
+        <dict>
+            <key>eventImageName</key>
+            <string>event1.jpg</string>
+            <key>eventTime</key>
+            <string>01.01.2015 13:45</string>
+            <key>eventTitle</key>
+            <string>New Year Celebration</string>
+        </dict>
+        <dict>
+            <key>eventImageName</key>
+            <string>event2.jpg</string>
+            <key>eventTime</key>
+            <string>02.02.2015 14:20</string>
+            <key>eventTitle</key>
+            <string>February party</string>
+        </dict>
+        <dict>
+            <key>eventImageName</key>
+            <string></string>
+            <key>eventTime</key>
+            <string>21.12.2014 13:00</string>
+            <key>eventTitle</key>
+            <string>Before Christmas</string>
+        </dict>
+        <dict>
+            <key>eventImageName</key>
+            <string></string>
+            <key>eventTime</key>
+            <string>18.12.2014 19:00</string>
+            <key>eventTitle</key>
+            <string>School party</string>
+        </dict>
+        <dict>
+            <key>eventImageName</key>
+            <string>event3.jpg</string>
+            <key>eventTime</key>
+            <string>24.12.2014 23:00</string>
+            <key>eventTitle</key>
+            <string>Dinner with Thomas</string>
+        </dict>
+        <dict>
+            <key>eventImageName</key>
+            <string></string>
+            <key>eventTime</key>
+            <string>01.01.2015 00:00</string>
+            <key>eventTitle</key>
+            <string>2015!</string>
+        </dict>
+    </array>
+</plist>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>--project-name</key>
+	<string>FMStepper</string>
+	<key>--project-company</key>
+	<string>Fast Miso Software</string>
+	<key>--company-id</key>
+	<string>com.fastmiso</string>
+	<key>--output</key>
+	<string>./doc/com.fastmiso.FMStepper.docset</string>
+	<key>--create-docset</key>
+	<true/>
+	<key>--install-docset</key>
+	<false/>
+	<key>--input</key>
+	<array>
+		<string>../FMStepper/FMStepper.h</string>
+		<string>../FMStepper/FMStepper.m</string>
+		<string>../FMStepper/FMStepperButton.h</string>
+		<string>../FMStepper/FMStepperButton.m</string>
+		<string>../FMStepper/UIColor+FMStepperAdditions.h</string>
+		<string>../FMStepper/UIColor+FMStepperAdditions.m</string>
+	</array>
+	<key>--logformat</key>
+	<string>xcode</string>
+</dict>
+</plist>

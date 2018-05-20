@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>answer</key>
+	<string>天空之城</string>
+	<key>words</key>
+	<array>
+		<string>天</string>
+		<string>还</string>
+		<string>我</string>
+		<string>空</string>
+		<string>有</string>
+		<string>之</string>
+		<string>爱</string>
+		<string>搭</string>
+		<string>啊</string>
+		<string>块</string>
+		<string>成</string>
+		<string>城</string>
+		<string>母</string>
+		<string>四</string>
+		<string>发</string>
+		<string>都</string>
+		<string>董</string>
+		<string>有</string>
+		<string>测</string>
+		<string>本</string>
+		<string>和</string>
+		<string>整</string>
+		<string>图</string>
+		<string>面</string>
+	</array>
+	<key>imageName</key>
+	<string>01.jpg</string>
+</dict>
+</plist>

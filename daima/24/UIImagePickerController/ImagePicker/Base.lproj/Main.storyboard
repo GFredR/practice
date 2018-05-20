@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11129.15" systemVersion="16A201w" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="nwc-wP-Al8">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11103.10"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Sad-U4-LhM">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="fUh-lL-nGK"/>
+                                    <constraint firstAttribute="width" constant="300" id="u1L-XC-w3u"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Sad-U4-LhM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="PIc-su-gtv"/>
+                            <constraint firstItem="Sad-U4-LhM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xxv-ze-tKj"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="G3J-gc-Heg">
+                        <leftBarButtonItems>
+                            <barButtonItem title="照片库" id="srs-8J-DPB">
+                                <connections>
+                                    <action selector="libraryTapped:" destination="BYZ-38-t0r" id="LBU-8J-Iih"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="专辑" id="9b5-eZ-pbh">
+                                <connections>
+                                    <action selector="albumTapped:" destination="BYZ-38-t0r" id="3FS-TF-mic"/>
+                                </connections>
+                            </barButtonItem>
+                        </leftBarButtonItems>
+                        <barButtonItem key="rightBarButtonItem" tag="1" systemItem="camera" id="8Y8-in-jxO">
+                            <connections>
+                                <action selector="cameraTapped:" destination="BYZ-38-t0r" id="3ub-sm-l29"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="imageView" destination="Sad-U4-LhM" id="cCs-My-gcW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="639" y="413"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="EX5-Ag-Liu">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nwc-wP-Al8" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="O12-uf-m5P">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Ogs-aY-Q5S"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CFl-wr-vii" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-89" y="412"/>
+        </scene>
+    </scenes>
+</document>

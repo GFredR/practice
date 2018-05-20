@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB33881E1D1BCD0200B043AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB33881D1D1BCD0200B043AF /* main.m */; };
+		FB3388211D1BCD0200B043AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3388201D1BCD0200B043AF /* AppDelegate.m */; };
+		FB3388241D1BCD0200B043AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3388231D1BCD0200B043AF /* ViewController.m */; };
+		FB3388271D1BCD0200B043AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB3388251D1BCD0200B043AF /* Main.storyboard */; };
+		FB3388291D1BCD0200B043AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB3388281D1BCD0200B043AF /* Assets.xcassets */; };
+		FB33882C1D1BCD0200B043AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB33882A1D1BCD0200B043AF /* LaunchScreen.storyboard */; };
+		FB33883A1D1BCD2300B043AF /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB3388391D1BCD2300B043AF /* PhotosUI.framework */; };
+		FB33883C1D1BCD2300B043AF /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB33883B1D1BCD2300B043AF /* Photos.framework */; };
+		FB3388401D1BCD2300B043AF /* PhotoEditingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB33883F1D1BCD2300B043AF /* PhotoEditingViewController.m */; };
+		FB3388431D1BCD2300B043AF /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB3388411D1BCD2300B043AF /* MainInterface.storyboard */; };
+		FB3388471D1BCD2300B043AF /* MKPhotoEditing.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FB3388371D1BCD2300B043AF /* MKPhotoEditing.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FB3388541D20D63F00B043AF /* MKImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3388531D20D63F00B043AF /* MKImageUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB3388451D1BCD2300B043AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB3388111D1BCD0200B043AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB3388361D1BCD2300B043AF;
+			remoteInfo = MKPhotoEditing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FB33884B1D1BCD2400B043AF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FB3388471D1BCD2300B043AF /* MKPhotoEditing.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FB3388191D1BCD0200B043AF /* MKPhotoEditingExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKPhotoEditingExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB33881D1D1BCD0200B043AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB33881F1D1BCD0200B043AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB3388201D1BCD0200B043AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB3388221D1BCD0200B043AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FB3388231D1BCD0200B043AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB3388261D1BCD0200B043AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB3388281D1BCD0200B043AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB33882B1D1BCD0200B043AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB33882D1D1BCD0200B043AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB3388371D1BCD2300B043AF /* MKPhotoEditing.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MKPhotoEditing.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB3388391D1BCD2300B043AF /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = System/Library/Frameworks/PhotosUI.framework; sourceTree = SDKROOT; };
+		FB33883B1D1BCD2300B043AF /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		FB33883E1D1BCD2300B043AF /* PhotoEditingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoEditingViewController.h; sourceTree = "<group>"; };
+		FB33883F1D1BCD2300B043AF /* PhotoEditingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoEditingViewController.m; sourceTree = "<group>"; };
+		FB3388421D1BCD2300B043AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		FB3388441D1BCD2300B043AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB3388521D20D63F00B043AF /* MKImageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKImageUtil.h; sourceTree = "<group>"; };
+		FB3388531D20D63F00B043AF /* MKImageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKImageUtil.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB3388161D1BCD0200B043AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB3388341D1BCD2300B043AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB33883A1D1BCD2300B043AF /* PhotosUI.framework in Frameworks */,
+				FB33883C1D1BCD2300B043AF /* Photos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB3388101D1BCD0200B043AF = {
+			isa = PBXGroup;
+			children = (
+				FB33881B1D1BCD0200B043AF /* MKPhotoEditingExtension */,
+				FB33883D1D1BCD2300B043AF /* MKPhotoEditing */,
+				FB3388381D1BCD2300B043AF /* Frameworks */,
+				FB33881A1D1BCD0200B043AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB33881A1D1BCD0200B043AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB3388191D1BCD0200B043AF /* MKPhotoEditingExtension.app */,
+				FB3388371D1BCD2300B043AF /* MKPhotoEditing.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB33881B1D1BCD0200B043AF /* MKPhotoEditingExtension */ = {
+			isa = PBXGroup;
+			children = (
+				FB33881F1D1BCD0200B043AF /* AppDelegate.h */,
+				FB3388201D1BCD0200B043AF /* AppDelegate.m */,
+				FB3388221D1BCD0200B043AF /* ViewController.h */,
+				FB3388231D1BCD0200B043AF /* ViewController.m */,
+				FB3388251D1BCD0200B043AF /* Main.storyboard */,
+				FB3388281D1BCD0200B043AF /* Assets.xcassets */,
+				FB33882A1D1BCD0200B043AF /* LaunchScreen.storyboard */,
+				FB33882D1D1BCD0200B043AF /* Info.plist */,
+				FB33881C1D1BCD0200B043AF /* Supporting Files */,
+			);
+			path = MKPhotoEditingExtension;
+			sourceTree = "<group>";
+		};
+		FB33881C1D1BCD0200B043AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB33881D1D1BCD0200B043AF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB3388381D1BCD2300B043AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB3388391D1BCD2300B043AF /* PhotosUI.framework */,
+				FB33883B1D1BCD2300B043AF /* Photos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB33883D1D1BCD2300B043AF /* MKPhotoEditing */ = {
+			isa = PBXGroup;
+			children = (
+				FB33883E1D1BCD2300B043AF /* PhotoEditingViewController.h */,
+				FB33883F1D1BCD2300B043AF /* PhotoEditingViewController.m */,
+				FB3388521D20D63F00B043AF /* MKImageUtil.h */,
+				FB3388531D20D63F00B043AF /* MKImageUtil.m */,
+				FB3388411D1BCD2300B043AF /* MainInterface.storyboard */,
+				FB3388441D1BCD2300B043AF /* Info.plist */,
+			);
+			path = MKPhotoEditing;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB3388181D1BCD0200B043AF /* MKPhotoEditingExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB3388301D1BCD0200B043AF /* Build configuration list for PBXNativeTarget "MKPhotoEditingExtension" */;
+			buildPhases = (
+				FB3388151D1BCD0200B043AF /* Sources */,
+				FB3388161D1BCD0200B043AF /* Frameworks */,
+				FB3388171D1BCD0200B043AF /* Resources */,
+				FB33884B1D1BCD2400B043AF /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB3388461D1BCD2300B043AF /* PBXTargetDependency */,
+			);
+			name = MKPhotoEditingExtension;
+			productName = MKPhotoEditingExtension;
+			productReference = FB3388191D1BCD0200B043AF /* MKPhotoEditingExtension.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB3388361D1BCD2300B043AF /* MKPhotoEditing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB3388481D1BCD2400B043AF /* Build configuration list for PBXNativeTarget "MKPhotoEditing" */;
+			buildPhases = (
+				FB3388331D1BCD2300B043AF /* Sources */,
+				FB3388341D1BCD2300B043AF /* Frameworks */,
+				FB3388351D1BCD2300B043AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MKPhotoEditing;
+			productName = MKPhotoEditing;
+			productReference = FB3388371D1BCD2300B043AF /* MKPhotoEditing.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB3388111D1BCD0200B043AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Donlinks;
+				TargetAttributes = {
+					FB3388181D1BCD0200B043AF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					FB3388361D1BCD2300B043AF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FB3388141D1BCD0200B043AF /* Build configuration list for PBXProject "MKPhotoEditingExtension" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB3388101D1BCD0200B043AF;
+			productRefGroup = FB33881A1D1BCD0200B043AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB3388181D1BCD0200B043AF /* MKPhotoEditingExtension */,
+				FB3388361D1BCD2300B043AF /* MKPhotoEditing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB3388171D1BCD0200B043AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB33882C1D1BCD0200B043AF /* LaunchScreen.storyboard in Resources */,
+				FB3388291D1BCD0200B043AF /* Assets.xcassets in Resources */,
+				FB3388271D1BCD0200B043AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB3388351D1BCD2300B043AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB3388431D1BCD2300B043AF /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB3388151D1BCD0200B043AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB3388241D1BCD0200B043AF /* ViewController.m in Sources */,
+				FB3388211D1BCD0200B043AF /* AppDelegate.m in Sources */,
+				FB33881E1D1BCD0200B043AF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB3388331D1BCD2300B043AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB3388401D1BCD2300B043AF /* PhotoEditingViewController.m in Sources */,
+				FB3388541D20D63F00B043AF /* MKImageUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB3388461D1BCD2300B043AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB3388361D1BCD2300B043AF /* MKPhotoEditing */;
+			targetProxy = FB3388451D1BCD2300B043AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB3388251D1BCD0200B043AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB3388261D1BCD0200B043AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB33882A1D1BCD0200B043AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB33882B1D1BCD0200B043AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FB3388411D1BCD2300B043AF /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB3388421D1BCD2300B043AF /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB33882E1D1BCD0200B043AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FB33882F1D1BCD0200B043AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB3388311D1BCD0200B043AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MKPhotoEditingExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.donlinks.MKPhotoEditingExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB3388321D1BCD0200B043AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MKPhotoEditingExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.donlinks.MKPhotoEditingExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB3388491D1BCD2400B043AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MKPhotoEditing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.donlinks.MKPhotoEditingExtension.MKPhotoEditing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FB33884A1D1BCD2400B043AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MKPhotoEditing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.donlinks.MKPhotoEditingExtension.MKPhotoEditing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB3388141D1BCD0200B043AF /* Build configuration list for PBXProject "MKPhotoEditingExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB33882E1D1BCD0200B043AF /* Debug */,
+				FB33882F1D1BCD0200B043AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB3388301D1BCD0200B043AF /* Build configuration list for PBXNativeTarget "MKPhotoEditingExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB3388311D1BCD0200B043AF /* Debug */,
+				FB3388321D1BCD0200B043AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB3388481D1BCD2400B043AF /* Build configuration list for PBXNativeTarget "MKPhotoEditing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB3388491D1BCD2400B043AF /* Debug */,
+				FB33884A1D1BCD2400B043AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB3388111D1BCD0200B043AF /* Project object */;
+}

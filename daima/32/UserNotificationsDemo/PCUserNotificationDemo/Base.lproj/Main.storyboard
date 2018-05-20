@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11163.2" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11133"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hig-Qa-6tw">
+                                <state key="normal" title="发送简单通知"/>
+                                <connections>
+                                    <action selector="sendPlainNoti:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KbA-iX-Utp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="226-hm-BM2">
+                                <state key="normal" title="发送带附件本地通知"/>
+                                <connections>
+                                    <action selector="sendServiceExtensionNoti:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oaA-7B-gQv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dJL-0g-c5H">
+                                <state key="normal" title="发送带内容扩展通知"/>
+                                <connections>
+                                    <action selector="sendContentExtensionNoti:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Wq-6r-FeC"/>
+                                </connections>
+                            </button>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yfU-Jc-ATQ">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="278" id="QOo-1g-jPE"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dJL-0g-c5H" firstAttribute="leading" secondItem="226-hm-BM2" secondAttribute="leading" id="3aS-t2-m2m"/>
+                            <constraint firstItem="dJL-0g-c5H" firstAttribute="top" secondItem="226-hm-BM2" secondAttribute="bottom" constant="8" symbolic="YES" id="4hr-rk-ZZK"/>
+                            <constraint firstItem="yfU-Jc-ATQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="84" id="CQL-0h-lCo"/>
+                            <constraint firstItem="yfU-Jc-ATQ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="17" id="KRF-So-jRZ"/>
+                            <constraint firstItem="dJL-0g-c5H" firstAttribute="centerX" secondItem="yfU-Jc-ATQ" secondAttribute="centerX" id="Qzd-3K-hCo"/>
+                            <constraint firstItem="226-hm-BM2" firstAttribute="centerX" secondItem="Hig-Qa-6tw" secondAttribute="centerX" id="U1T-uz-UyN"/>
+                            <constraint firstItem="226-hm-BM2" firstAttribute="top" secondItem="Hig-Qa-6tw" secondAttribute="bottom" constant="14" id="aJI-em-Sqv"/>
+                            <constraint firstItem="yfU-Jc-ATQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="boZ-sq-4b6"/>
+                            <constraint firstItem="Hig-Qa-6tw" firstAttribute="top" secondItem="yfU-Jc-ATQ" secondAttribute="bottom" constant="25" id="ctI-3g-QT4"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imgView" destination="yfU-Jc-ATQ" id="EEr-lx-uSJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-79.200000000000003" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11163.2" systemVersion="16A239j" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11133"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="PopoverRestoration" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ryh-Xe-OxB">
+                                <state key="normal" title="显示模态视图"/>
+                                <connections>
+                                    <segue destination="Rji-8x-FUE" kind="popoverPresentation" identifier="popoverSegue" popoverAnchorView="ryh-Xe-OxB" id="JbZ-75-85s">
+                                        <popoverArrowDirection key="popoverArrowDirection" down="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ryh-Xe-OxB" secondAttribute="bottom" constant="20" id="Qoh-zv-qrC"/>
+                            <constraint firstItem="ryh-Xe-OxB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ofy-qi-HZs"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="showPopoverButton" destination="ryh-Xe-OxB" id="hXt-Zs-fdI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-26" y="379"/>
+        </scene>
+        <!--Presented View Controller-->
+        <scene sceneID="9OG-74-MUE">
+            <objects>
+                <viewController storyboardIdentifier="PresentedViewController" title="Presented View Controller" useStoryboardIdentifierAsRestorationIdentifier="YES" id="a5k-M7-6We" customClass="PresentedViewController" customModule="PopoverRestoration" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Xts-Sm-Ahw"/>
+                        <viewControllerLayoutGuide type="bottom" id="yoN-sN-mNQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tHy-7U-a5p">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PopoverContent" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mf9-SI-Srt">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Mf9-SI-Srt" firstAttribute="centerX" secondItem="tHy-7U-a5p" secondAttribute="centerX" id="6HH-Yv-8gO"/>
+                            <constraint firstItem="Mf9-SI-Srt" firstAttribute="centerY" secondItem="tHy-7U-a5p" secondAttribute="centerY" id="U6e-0L-rGI"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="KZ3-X7-qcq"/>
+                    <value key="contentSizeForViewInPopover" type="size" width="400" height="600"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EGE-sM-pDn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1944" y="380"/>
+        </scene>
+        <!--Presented Navigation Controller-->
+        <scene sceneID="nbt-KS-xex">
+            <objects>
+                <navigationController storyboardIdentifier="PresentedNavigationController" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Rji-8x-FUE" userLabel="Presented Navigation Controller" customClass="PresentedNavigationController" customModule="PopoverRestoration" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ldp-9i-ecx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="a5k-M7-6We" kind="relationship" relationship="rootViewController" id="798-5I-820"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fSb-gY-Hkk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="680" y="370"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,18 @@
+/* 
+ Localizable.strings
+ //  Air Vision Touch Serial
+ //
+ //  http://airflypan.com
+ //  airflypan@msn.com
+ //  QQ/WeChat:1272000
+ //  Tel:+86 1313 2914 138
+ //
+ //  Created by Airfly Pan on 12-8-6.
+ //  Copyright (c) 2009-2017 Air Vision Studio. All rights reserved.
+ //
+ */
+"Start" = "开始 (文字来自跑步App)";
+"Pause" = "暂停 (文字来自跑步App)";
+"Resume" = "恢复 (文字来自跑步App)";
+"Cancel" = "取消 (文字来自跑步App)";
+"End" = "结束 (文字来自跑步App)";

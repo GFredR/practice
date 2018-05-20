@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11129.15" systemVersion="16A201w" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11103.10"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Initial-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" userLabel="Initial" customClass="ViewController" customModule="CustomPicker" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q1J-Fe-Lez">
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="4ky-ft-p2S"/>
+                                    <barButtonItem title="选择图像和文字" id="3Co-Og-gOG">
+                                        <connections>
+                                            <segue destination="joA-0Q-Bow" kind="popoverPresentation" popoverAnchorBarButtonItem="3Co-Og-gOG" id="10Q-i2-nKw">
+                                                <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                            </segue>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="C1u-FT-qq5"/>
+                                </items>
+                            </toolbar>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="没有选择" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="5" minimumFontSize="10" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="iId-Gl-8jB">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="313" id="tXw-hX-81w"/>
+                                    <constraint firstAttribute="height" constant="67" id="uRA-JF-PY5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="iId-Gl-8jB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="131" id="AMR-nA-EDn"/>
+                            <constraint firstAttribute="trailing" secondItem="q1J-Fe-Lez" secondAttribute="trailing" id="Edk-iD-xND"/>
+                            <constraint firstItem="q1J-Fe-Lez" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="UeL-Wc-ski"/>
+                            <constraint firstItem="q1J-Fe-Lez" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Yjx-R8-Dgy"/>
+                            <constraint firstItem="q1J-Fe-Lez" firstAttribute="centerX" secondItem="iId-Gl-8jB" secondAttribute="centerX" id="dWE-ji-zXR"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="outputLabel" destination="iId-Gl-8jB" id="rD7-Gg-jV7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-138" y="381"/>
+        </scene>
+        <!--Animal Chooser-->
+        <scene sceneID="YqE-aa-X9B">
+            <objects>
+                <viewController id="joA-0Q-Bow" userLabel="Animal Chooser" customClass="AnimalChooserViewController" customModule="CustomPicker" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7Gf-pG-Mds"/>
+                        <viewControllerLayoutGuide type="bottom" id="9Rg-ko-nf1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="L4P-Ia-Az3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="请选择图像和文字" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="VTa-7m-hmq">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="296" id="KiU-iJ-3uk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pL1-Xh-QJF">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="162" id="c5I-xc-m3U"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="dataSource" destination="joA-0Q-Bow" id="auB-Ec-peD"/>
+                                    <outlet property="delegate" destination="joA-0Q-Bow" id="TXM-7m-pgk"/>
+                                </connections>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ymT-n6-6dw">
+                                <state key="normal" title="好">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="dismissAnimalChooser:" destination="joA-0Q-Bow" eventType="touchUpInside" id="i9m-Eo-ddX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96795070169999997" green="0.92659599729999997" blue="0.85696856619999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="pL1-Xh-QJF" secondAttribute="trailing" id="3RS-wF-dqB"/>
+                            <constraint firstItem="pL1-Xh-QJF" firstAttribute="top" secondItem="VTa-7m-hmq" secondAttribute="bottom" constant="17" id="E1n-qc-cEb"/>
+                            <constraint firstItem="VTa-7m-hmq" firstAttribute="top" secondItem="7Gf-pG-Mds" secondAttribute="bottom" constant="8" symbolic="YES" id="FDy-BF-op8"/>
+                            <constraint firstItem="pL1-Xh-QJF" firstAttribute="leading" secondItem="L4P-Ia-Az3" secondAttribute="leading" id="Tgl-Hg-ucD"/>
+                            <constraint firstAttribute="bottom" secondItem="ymT-n6-6dw" secondAttribute="bottom" constant="20" symbolic="YES" id="jIi-t0-FxZ"/>
+                            <constraint firstItem="VTa-7m-hmq" firstAttribute="centerX" secondItem="pL1-Xh-QJF" secondAttribute="centerX" id="kR5-Gz-adE"/>
+                            <constraint firstItem="pL1-Xh-QJF" firstAttribute="centerX" secondItem="ymT-n6-6dw" secondAttribute="centerX" id="wNR-L0-F36"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Ul-4l-FaD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="725" y="381"/>
+        </scene>
+    </scenes>
+</document>

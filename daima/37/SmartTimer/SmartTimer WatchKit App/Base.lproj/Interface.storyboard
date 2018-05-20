@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11163.2" systemVersion="16A239j" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11133"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11064"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <timer width="136" height="39.5" alignment="left" textAlignment="center" previewedSeconds="90" id="CE4-Hd-kEq">
+                            <fontDescription key="font" type="system" weight="light" pointSize="66"/>
+                            <calendarUnit key="units" minute="YES" second="YES"/>
+                            <variation key="device=watch42mm" height="49.5" width="156"/>
+                        </timer>
+                        <label width="136" alignment="left" text="0 подходов" textAlignment="center" id="EDK-HE-ADg">
+                            <color key="textColor" red="0.75294117647058822" green="0.75294117647058822" blue="0.75294117647058822" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <variation key="device=watch42mm" width="156"/>
+                        </label>
+                        <group width="1" height="59" alignment="left" spacing="11" id="lw3-9e-Jew">
+                            <items>
+                                <button width="70" height="70" alignment="left" title="01:30" backgroundImage="red" id="Yi7-AB-GYs">
+                                    <connections>
+                                        <action selector="levelButtonPressed" destination="AgC-eL-Hgc" id="vyN-Xb-pNO"/>
+                                    </connections>
+                                </button>
+                                <button width="70" height="70" alignment="left" title="03:00" backgroundImage="green" id="odQ-D9-1Mk">
+                                    <connections>
+                                        <action selector="exerciseButtonPressed" destination="AgC-eL-Hgc" id="BDA-iB-oJ0"/>
+                                    </connections>
+                                </button>
+                            </items>
+                            <variation key="device=watch42mm" height="72"/>
+                        </group>
+                        <label width="136" alignment="left" text="0 упражнений" textAlignment="center" id="yUr-EJ-lmv">
+                            <color key="textColor" red="0.75294117650000003" green="0.75294117650000003" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <variation key="device=watch42mm" width="156"/>
+                        </label>
+                    </items>
+                    <connections>
+                        <outlet property="exerciseLabel" destination="yUr-EJ-lmv" id="n45-3E-NIm"/>
+                        <outlet property="levelLabel" destination="EDK-HE-ADg" id="HZp-GX-Lq1"/>
+                        <outlet property="timer" destination="CE4-Hd-kEq" id="JPz-dw-Fo8"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="9" y="394"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="223" y="394"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController"/>
+            </objects>
+            <point key="canvasLocation" x="465" y="394"/>
+        </scene>
+    </scenes>
+</document>

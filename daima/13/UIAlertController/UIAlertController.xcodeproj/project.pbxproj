@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52197C6A1C50C49B0016FFC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52197C691C50C49B0016FFC7 /* main.m */; };
+		52197C6D1C50C49B0016FFC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52197C6C1C50C49B0016FFC7 /* AppDelegate.m */; };
+		52197C701C50C49B0016FFC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52197C6F1C50C49B0016FFC7 /* ViewController.m */; };
+		52197C731C50C49B0016FFC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52197C711C50C49B0016FFC7 /* Main.storyboard */; };
+		52197C751C50C49B0016FFC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52197C741C50C49B0016FFC7 /* Assets.xcassets */; };
+		52197C781C50C49B0016FFC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52197C761C50C49B0016FFC7 /* LaunchScreen.storyboard */; };
+		52197C831C50C49B0016FFC7 /* UIAlertControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52197C821C50C49B0016FFC7 /* UIAlertControllerTests.m */; };
+		52197C8E1C50C49B0016FFC7 /* UIAlertControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52197C8D1C50C49B0016FFC7 /* UIAlertControllerUITests.m */; };
+		52197CA01C50D1E60016FFC7 /* AlertVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 52197C9F1C50D1E60016FFC7 /* AlertVC.m */; };
+		52197CA31C50D1F80016FFC7 /* ActionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 52197CA21C50D1F80016FFC7 /* ActionVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52197C7F1C50C49B0016FFC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52197C5D1C50C49B0016FFC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52197C641C50C49B0016FFC7;
+			remoteInfo = UIAlertController;
+		};
+		52197C8A1C50C49B0016FFC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52197C5D1C50C49B0016FFC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52197C641C50C49B0016FFC7;
+			remoteInfo = UIAlertController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52197C651C50C49B0016FFC7 /* UIAlertController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIAlertController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52197C691C50C49B0016FFC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52197C6B1C50C49B0016FFC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52197C6C1C50C49B0016FFC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52197C6E1C50C49B0016FFC7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		52197C6F1C50C49B0016FFC7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		52197C721C50C49B0016FFC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52197C741C50C49B0016FFC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52197C771C50C49B0016FFC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52197C791C50C49B0016FFC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52197C7E1C50C49B0016FFC7 /* UIAlertControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIAlertControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52197C821C50C49B0016FFC7 /* UIAlertControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIAlertControllerTests.m; sourceTree = "<group>"; };
+		52197C841C50C49B0016FFC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52197C891C50C49B0016FFC7 /* UIAlertControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIAlertControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52197C8D1C50C49B0016FFC7 /* UIAlertControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIAlertControllerUITests.m; sourceTree = "<group>"; };
+		52197C8F1C50C49B0016FFC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52197C9E1C50D1E60016FFC7 /* AlertVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertVC.h; sourceTree = "<group>"; };
+		52197C9F1C50D1E60016FFC7 /* AlertVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertVC.m; sourceTree = "<group>"; };
+		52197CA11C50D1F80016FFC7 /* ActionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionVC.h; sourceTree = "<group>"; };
+		52197CA21C50D1F80016FFC7 /* ActionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52197C621C50C49B0016FFC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52197C7B1C50C49B0016FFC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52197C861C50C49B0016FFC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52197C5C1C50C49B0016FFC7 = {
+			isa = PBXGroup;
+			children = (
+				52197C671C50C49B0016FFC7 /* UIAlertController */,
+				52197C811C50C49B0016FFC7 /* UIAlertControllerTests */,
+				52197C8C1C50C49B0016FFC7 /* UIAlertControllerUITests */,
+				52197C661C50C49B0016FFC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52197C661C50C49B0016FFC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52197C651C50C49B0016FFC7 /* UIAlertController.app */,
+				52197C7E1C50C49B0016FFC7 /* UIAlertControllerTests.xctest */,
+				52197C891C50C49B0016FFC7 /* UIAlertControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52197C671C50C49B0016FFC7 /* UIAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				52197C6B1C50C49B0016FFC7 /* AppDelegate.h */,
+				52197C6C1C50C49B0016FFC7 /* AppDelegate.m */,
+				52197C6E1C50C49B0016FFC7 /* ViewController.h */,
+				52197C6F1C50C49B0016FFC7 /* ViewController.m */,
+				52197C9B1C50D1660016FFC7 /* UIAlertView 效果 */,
+				52197C9C1C50D17A0016FFC7 /* UIActionSheet 效果 */,
+				52197C681C50C49B0016FFC7 /* Supporting Files */,
+			);
+			path = UIAlertController;
+			sourceTree = "<group>";
+		};
+		52197C681C50C49B0016FFC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52197C711C50C49B0016FFC7 /* Main.storyboard */,
+				52197C741C50C49B0016FFC7 /* Assets.xcassets */,
+				52197C761C50C49B0016FFC7 /* LaunchScreen.storyboard */,
+				52197C791C50C49B0016FFC7 /* Info.plist */,
+				52197C691C50C49B0016FFC7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52197C811C50C49B0016FFC7 /* UIAlertControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				52197C821C50C49B0016FFC7 /* UIAlertControllerTests.m */,
+				52197C841C50C49B0016FFC7 /* Info.plist */,
+			);
+			path = UIAlertControllerTests;
+			sourceTree = "<group>";
+		};
+		52197C8C1C50C49B0016FFC7 /* UIAlertControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52197C8D1C50C49B0016FFC7 /* UIAlertControllerUITests.m */,
+				52197C8F1C50C49B0016FFC7 /* Info.plist */,
+			);
+			path = UIAlertControllerUITests;
+			sourceTree = "<group>";
+		};
+		52197C9B1C50D1660016FFC7 /* UIAlertView 效果 */ = {
+			isa = PBXGroup;
+			children = (
+				52197C9E1C50D1E60016FFC7 /* AlertVC.h */,
+				52197C9F1C50D1E60016FFC7 /* AlertVC.m */,
+			);
+			name = "UIAlertView 效果";
+			sourceTree = "<group>";
+		};
+		52197C9C1C50D17A0016FFC7 /* UIActionSheet 效果 */ = {
+			isa = PBXGroup;
+			children = (
+				52197CA11C50D1F80016FFC7 /* ActionVC.h */,
+				52197CA21C50D1F80016FFC7 /* ActionVC.m */,
+			);
+			name = "UIActionSheet 效果";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52197C641C50C49B0016FFC7 /* UIAlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52197C921C50C49B0016FFC7 /* Build configuration list for PBXNativeTarget "UIAlertController" */;
+			buildPhases = (
+				52197C611C50C49B0016FFC7 /* Sources */,
+				52197C621C50C49B0016FFC7 /* Frameworks */,
+				52197C631C50C49B0016FFC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIAlertController;
+			productName = UIAlertController;
+			productReference = 52197C651C50C49B0016FFC7 /* UIAlertController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52197C7D1C50C49B0016FFC7 /* UIAlertControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52197C951C50C49B0016FFC7 /* Build configuration list for PBXNativeTarget "UIAlertControllerTests" */;
+			buildPhases = (
+				52197C7A1C50C49B0016FFC7 /* Sources */,
+				52197C7B1C50C49B0016FFC7 /* Frameworks */,
+				52197C7C1C50C49B0016FFC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52197C801C50C49B0016FFC7 /* PBXTargetDependency */,
+			);
+			name = UIAlertControllerTests;
+			productName = UIAlertControllerTests;
+			productReference = 52197C7E1C50C49B0016FFC7 /* UIAlertControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52197C881C50C49B0016FFC7 /* UIAlertControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52197C981C50C49B0016FFC7 /* Build configuration list for PBXNativeTarget "UIAlertControllerUITests" */;
+			buildPhases = (
+				52197C851C50C49B0016FFC7 /* Sources */,
+				52197C861C50C49B0016FFC7 /* Frameworks */,
+				52197C871C50C49B0016FFC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52197C8B1C50C49B0016FFC7 /* PBXTargetDependency */,
+			);
+			name = UIAlertControllerUITests;
+			productName = UIAlertControllerUITests;
+			productReference = 52197C891C50C49B0016FFC7 /* UIAlertControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52197C5D1C50C49B0016FFC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = RenSihao;
+				TargetAttributes = {
+					52197C641C50C49B0016FFC7 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4FA6W7YQGP;
+						DevelopmentTeamName = "guan jing (Personal Team)";
+					};
+					52197C7D1C50C49B0016FFC7 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = T2HF943549;
+						TestTargetID = 52197C641C50C49B0016FFC7;
+					};
+					52197C881C50C49B0016FFC7 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = T2HF943549;
+						TestTargetID = 52197C641C50C49B0016FFC7;
+					};
+				};
+			};
+			buildConfigurationList = 52197C601C50C49B0016FFC7 /* Build configuration list for PBXProject "UIAlertController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52197C5C1C50C49B0016FFC7;
+			productRefGroup = 52197C661C50C49B0016FFC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52197C641C50C49B0016FFC7 /* UIAlertController */,
+				52197C7D1C50C49B0016FFC7 /* UIAlertControllerTests */,
+				52197C881C50C49B0016FFC7 /* UIAlertControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52197C631C50C49B0016FFC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52197C781C50C49B0016FFC7 /* LaunchScreen.storyboard in Resources */,
+				52197C751C50C49B0016FFC7 /* Assets.xcassets in Resources */,
+				52197C731C50C49B0016FFC7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52197C7C1C50C49B0016FFC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52197C871C50C49B0016FFC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52197C611C50C49B0016FFC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52197C701C50C49B0016FFC7 /* ViewController.m in Sources */,
+				52197CA01C50D1E60016FFC7 /* AlertVC.m in Sources */,
+				52197C6D1C50C49B0016FFC7 /* AppDelegate.m in Sources */,
+				52197C6A1C50C49B0016FFC7 /* main.m in Sources */,
+				52197CA31C50D1F80016FFC7 /* ActionVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52197C7A1C50C49B0016FFC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52197C831C50C49B0016FFC7 /* UIAlertControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52197C851C50C49B0016FFC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52197C8E1C50C49B0016FFC7 /* UIAlertControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52197C801C50C49B0016FFC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52197C641C50C49B0016FFC7 /* UIAlertController */;
+			targetProxy = 52197C7F1C50C49B0016FFC7 /* PBXContainerItemProxy */;
+		};
+		52197C8B1C50C49B0016FFC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52197C641C50C49B0016FFC7 /* UIAlertController */;
+			targetProxy = 52197C8A1C50C49B0016FFC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52197C711C50C49B0016FFC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52197C721C50C49B0016FFC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52197C761C50C49B0016FFC7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52197C771C50C49B0016FFC7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52197C901C50C49B0016FFC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		52197C911C50C49B0016FFC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52197C931C50C49B0016FFC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIAlertController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rensihao.com.UIAlertController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		52197C941C50C49B0016FFC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIAlertController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rensihao.com.UIAlertController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		52197C961C50C49B0016FFC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UIAlertControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rensihao.com.UIAlertControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIAlertController.app/UIAlertController";
+			};
+			name = Debug;
+		};
+		52197C971C50C49B0016FFC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UIAlertControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rensihao.com.UIAlertControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIAlertController.app/UIAlertController";
+			};
+			name = Release;
+		};
+		52197C991C50C49B0016FFC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UIAlertControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rensihao.com.UIAlertControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UIAlertController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		52197C9A1C50C49B0016FFC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UIAlertControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rensihao.com.UIAlertControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UIAlertController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52197C601C50C49B0016FFC7 /* Build configuration list for PBXProject "UIAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52197C901C50C49B0016FFC7 /* Debug */,
+				52197C911C50C49B0016FFC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52197C921C50C49B0016FFC7 /* Build configuration list for PBXNativeTarget "UIAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52197C931C50C49B0016FFC7 /* Debug */,
+				52197C941C50C49B0016FFC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52197C951C50C49B0016FFC7 /* Build configuration list for PBXNativeTarget "UIAlertControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52197C961C50C49B0016FFC7 /* Debug */,
+				52197C971C50C49B0016FFC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52197C981C50C49B0016FFC7 /* Build configuration list for PBXNativeTarget "UIAlertControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52197C991C50C49B0016FFC7 /* Debug */,
+				52197C9A1C50C49B0016FFC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52197C5D1C50C49B0016FFC7 /* Project object */;
+}

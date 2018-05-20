@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEFD66B01A5736C50040F18B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFD66AF1A5736C50040F18B /* AppDelegate.swift */; };
+		BEFD66B21A5736C50040F18B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFD66B11A5736C50040F18B /* ViewController.swift */; };
+		BEFD66B51A5736C50040F18B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEFD66B31A5736C50040F18B /* Main.storyboard */; };
+		BEFD66B71A5736C50040F18B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEFD66B61A5736C50040F18B /* Images.xcassets */; };
+		BEFD66BA1A5736C50040F18B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEFD66B81A5736C50040F18B /* LaunchScreen.xib */; };
+		BEFD66C61A5736C50040F18B /* iOS8SwiftUIStepperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFD66C51A5736C50040F18B /* iOS8SwiftUIStepperTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEFD66C01A5736C50040F18B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEFD66A21A5736C50040F18B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEFD66A91A5736C50040F18B;
+			remoteInfo = iOS8SwiftUIStepper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BEFD66AA1A5736C50040F18B /* iOS10SwiftUIStepper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS10SwiftUIStepper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEFD66AE1A5736C50040F18B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEFD66AF1A5736C50040F18B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEFD66B11A5736C50040F18B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEFD66B41A5736C50040F18B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEFD66B61A5736C50040F18B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BEFD66B91A5736C50040F18B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BEFD66BF1A5736C50040F18B /* iOS10SwiftUIStepperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS10SwiftUIStepperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEFD66C41A5736C50040F18B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEFD66C51A5736C50040F18B /* iOS8SwiftUIStepperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS8SwiftUIStepperTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEFD66A71A5736C50040F18B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEFD66BC1A5736C50040F18B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEFD66A11A5736C50040F18B = {
+			isa = PBXGroup;
+			children = (
+				BEFD66AC1A5736C50040F18B /* iOS8SwiftUIStepper */,
+				BEFD66C21A5736C50040F18B /* iOS8SwiftUIStepperTests */,
+				BEFD66AB1A5736C50040F18B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEFD66AB1A5736C50040F18B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEFD66AA1A5736C50040F18B /* iOS10SwiftUIStepper.app */,
+				BEFD66BF1A5736C50040F18B /* iOS10SwiftUIStepperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEFD66AC1A5736C50040F18B /* iOS8SwiftUIStepper */ = {
+			isa = PBXGroup;
+			children = (
+				BEFD66AF1A5736C50040F18B /* AppDelegate.swift */,
+				BEFD66B11A5736C50040F18B /* ViewController.swift */,
+				BEFD66B31A5736C50040F18B /* Main.storyboard */,
+				BEFD66B61A5736C50040F18B /* Images.xcassets */,
+				BEFD66B81A5736C50040F18B /* LaunchScreen.xib */,
+				BEFD66AD1A5736C50040F18B /* Supporting Files */,
+			);
+			path = iOS8SwiftUIStepper;
+			sourceTree = "<group>";
+		};
+		BEFD66AD1A5736C50040F18B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEFD66AE1A5736C50040F18B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEFD66C21A5736C50040F18B /* iOS8SwiftUIStepperTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEFD66C51A5736C50040F18B /* iOS8SwiftUIStepperTests.swift */,
+				BEFD66C31A5736C50040F18B /* Supporting Files */,
+			);
+			path = iOS8SwiftUIStepperTests;
+			sourceTree = "<group>";
+		};
+		BEFD66C31A5736C50040F18B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEFD66C41A5736C50040F18B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEFD66A91A5736C50040F18B /* iOS10SwiftUIStepper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEFD66C91A5736C50040F18B /* Build configuration list for PBXNativeTarget "iOS10SwiftUIStepper" */;
+			buildPhases = (
+				BEFD66A61A5736C50040F18B /* Sources */,
+				BEFD66A71A5736C50040F18B /* Frameworks */,
+				BEFD66A81A5736C50040F18B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS10SwiftUIStepper;
+			productName = iOS8SwiftUIStepper;
+			productReference = BEFD66AA1A5736C50040F18B /* iOS10SwiftUIStepper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEFD66BE1A5736C50040F18B /* iOS10SwiftUIStepperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEFD66CC1A5736C50040F18B /* Build configuration list for PBXNativeTarget "iOS10SwiftUIStepperTests" */;
+			buildPhases = (
+				BEFD66BB1A5736C50040F18B /* Sources */,
+				BEFD66BC1A5736C50040F18B /* Frameworks */,
+				BEFD66BD1A5736C50040F18B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEFD66C11A5736C50040F18B /* PBXTargetDependency */,
+			);
+			name = iOS10SwiftUIStepperTests;
+			productName = iOS8SwiftUIStepperTests;
+			productReference = BEFD66BF1A5736C50040F18B /* iOS10SwiftUIStepperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEFD66A21A5736C50040F18B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Kenneth Wilcox";
+				TargetAttributes = {
+					BEFD66A91A5736C50040F18B = {
+						CreatedOnToolsVersion = 6.1.1;
+						LastSwiftMigration = 0800;
+					};
+					BEFD66BE1A5736C50040F18B = {
+						CreatedOnToolsVersion = 6.1.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = BEFD66A91A5736C50040F18B;
+					};
+				};
+			};
+			buildConfigurationList = BEFD66A51A5736C50040F18B /* Build configuration list for PBXProject "iOS10SwiftUIStepper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEFD66A11A5736C50040F18B;
+			productRefGroup = BEFD66AB1A5736C50040F18B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEFD66A91A5736C50040F18B /* iOS10SwiftUIStepper */,
+				BEFD66BE1A5736C50040F18B /* iOS10SwiftUIStepperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEFD66A81A5736C50040F18B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEFD66B51A5736C50040F18B /* Main.storyboard in Resources */,
+				BEFD66BA1A5736C50040F18B /* LaunchScreen.xib in Resources */,
+				BEFD66B71A5736C50040F18B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEFD66BD1A5736C50040F18B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEFD66A61A5736C50040F18B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEFD66B21A5736C50040F18B /* ViewController.swift in Sources */,
+				BEFD66B01A5736C50040F18B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEFD66BB1A5736C50040F18B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEFD66C61A5736C50040F18B /* iOS8SwiftUIStepperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEFD66C11A5736C50040F18B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEFD66A91A5736C50040F18B /* iOS10SwiftUIStepper */;
+			targetProxy = BEFD66C01A5736C50040F18B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEFD66B31A5736C50040F18B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEFD66B41A5736C50040F18B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEFD66B81A5736C50040F18B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEFD66B91A5736C50040F18B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEFD66C71A5736C50040F18B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-all_load";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEFD66C81A5736C50040F18B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-all_load";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEFD66CA1A5736C50040F18B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOS8SwiftUIStepper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.k3nx.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BEFD66CB1A5736C50040F18B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOS8SwiftUIStepper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.k3nx.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BEFD66CD1A5736C50040F18B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iOS8SwiftUIStepperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.k3nx.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS10SwiftUIStepper.app/iOS10SwiftUIStepper";
+			};
+			name = Debug;
+		};
+		BEFD66CE1A5736C50040F18B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iOS8SwiftUIStepperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.k3nx.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS10SwiftUIStepper.app/iOS10SwiftUIStepper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEFD66A51A5736C50040F18B /* Build configuration list for PBXProject "iOS10SwiftUIStepper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFD66C71A5736C50040F18B /* Debug */,
+				BEFD66C81A5736C50040F18B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEFD66C91A5736C50040F18B /* Build configuration list for PBXNativeTarget "iOS10SwiftUIStepper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFD66CA1A5736C50040F18B /* Debug */,
+				BEFD66CB1A5736C50040F18B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEFD66CC1A5736C50040F18B /* Build configuration list for PBXNativeTarget "iOS10SwiftUIStepperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFD66CD1A5736C50040F18B /* Debug */,
+				BEFD66CE1A5736C50040F18B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEFD66A21A5736C50040F18B /* Project object */;
+}
